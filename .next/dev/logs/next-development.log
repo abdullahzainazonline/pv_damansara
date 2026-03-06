@@ -1,0 +1,8 @@
+[00:00:28.280] Server  LOG     ✓ Ready in 20.1s
+[00:00:42.321] Server  LOG     ○ Compiling / ...
+[00:01:20.017] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:01:26.364] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:30.098] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:01:32.622] Server  LOG     ○ Compiling /icon ...
+[00:01:56.687] Server  LOG     ✓ Finished writing to filesystem cache in 30.3s
+[00:02:13.409] Server  LOG     ✓ Finished filesystem cache database compaction in 21.7s
