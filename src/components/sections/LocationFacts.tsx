@@ -58,7 +58,7 @@ const connectivity = [
   { name: "Bukit Bintang / Pavilion KL", detail: "Direct connectivity via MRT line", icon: Landmark, highlight: false },
   { name: "KL International Airport", detail: "Transfer via KL Sentral KLIA Ekspres", icon: Plane, highlight: false },
   { name: "SPRINT Highway", detail: "Immediate highway access", icon: Car, highlight: false },
-  { name: "Bangsar & Mont Kiara", detail: "Minutes away from affluent neighborhoods", icon: Star, highlight: false },
+  { name: "Bangsar & Mont Kiara", detail: "test away from affluent neighborhoods", icon: Star, highlight: false },
 ];
 
 /* ── Full-bleed BG Slider ────────────────────────────── */
