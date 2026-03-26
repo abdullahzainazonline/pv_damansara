@@ -3,7 +3,10 @@ import { Montserrat, Playfair_Display, Cormorant_Garamond } from "next/font/goog
 import "./globals.css";
 import SmoothScroll from "@/components/layout/SmoothScroll";
 import ViewportNormalizer from "@/components/layout/ViewportNormalizer";
+<<<<<<< HEAD
 import WhatsAppFAB from "@/components/layout/WhatsAppFAB";
+=======
+>>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
 
 const montserrat = Montserrat({
   variable: "--font-sans",
@@ -80,12 +83,16 @@ export default function RootLayout({
       </head>
       <body
         className={`${montserrat.variable} ${playfair.variable} ${cormorant.variable} antialiased bg-dark-bg text-champagne`}
+<<<<<<< HEAD
         suppressHydrationWarning
+=======
+>>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
       >
         <ViewportNormalizer />
         <SmoothScroll>
           {children}
         </SmoothScroll>
+<<<<<<< HEAD
 
         {/* Hidden Google Translate element (target for widget) */}
         <div id="google_translate_element" style={{ display: "none" }} dangerouslySetInnerHTML={{ __html: "" }} suppressHydrationWarning></div>
@@ -111,6 +118,8 @@ export default function RootLayout({
         />
 
         <WhatsAppFAB />
+=======
+>>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
       </body>
     </html>
   );

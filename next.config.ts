@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+<<<<<<< HEAD
   images: {
     remotePatterns: [
       {
@@ -9,6 +10,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+=======
+>>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
   async rewrites() {
     return [
       {

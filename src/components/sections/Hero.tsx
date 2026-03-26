@@ -10,6 +10,7 @@ const HERO_IMAGES = [
   "/pdh/pdh_overview_(luxury_p3_img1.jpeg",
 ];
 
+<<<<<<< HEAD
 const WA_LINK =
   "https://api.whatsapp.com/send?phone=60122705608&text=Hi%2C+I+am+interested+in+Pavilion+Damansara+Heights";
 
@@ -27,6 +28,8 @@ function WhatsAppIcon({ className = "w-5 h-5" }: { className?: string }) {
   );
 }
 
+=======
+>>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
 /* ── Pre-computed particle data (deterministic — no Math.random) ── */
 const PARTICLES = [
   { id: 0, left: "8%", bottom: "5%", size: 2.5, delay: 0, duration: 10, opacity: 0.5 },
@@ -284,6 +287,7 @@ export default function Hero() {
                 <div className="w-6 sm:w-10 md:w-16 h-[1px] bg-gradient-to-l from-transparent to-[#C49A38]/60" />
               </motion.div>
             </div>
+<<<<<<< HEAD
 
             {/* ── Book Appointment CTA Button ── */}
             <motion.div
@@ -308,6 +312,8 @@ export default function Hero() {
                 </span>
               </a>
             </motion.div>
+=======
+>>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
           </motion.div>
         </div>
 

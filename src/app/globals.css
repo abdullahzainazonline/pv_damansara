@@ -265,6 +265,7 @@ h6 {
   }
 }
 
+<<<<<<< HEAD
 .animate-shine {
   animation: shine-sweep 2.5s ease-in-out infinite;
 }
@@ -274,6 +275,8 @@ h6 {
   transform: translateZ(0); /* hint for translate engines to leave alone */
 }
 
+=======
+>>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
 /* ── Scroll Indicator Bounce ────────────────────────── */
 @keyframes bounce-down {
 
