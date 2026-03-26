@@ -265,6 +265,15 @@ h6 {
   }
 }
 
+.animate-shine {
+  animation: shine-sweep 2.5s ease-in-out infinite;
+}
+
+/* ── Prevent Translate Block ─────────────────────────── */
+.notranslate {
+  transform: translateZ(0); /* hint for translate engines to leave alone */
+}
+
 /* ── Scroll Indicator Bounce ────────────────────────── */
 @keyframes bounce-down {
 

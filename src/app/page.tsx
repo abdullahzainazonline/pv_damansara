@@ -5,12 +5,14 @@ import UnitLayouts from "@/components/sections/UnitLayouts";
 import Facilities from "@/components/sections/Facilities";
 import Concierge from "@/components/sections/Concierge";
 import Contact from "@/components/sections/Contact";
+import VideoSection from "@/components/sections/VideoSection";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-dark-bg relative">
       <Navbar />
       <Hero />
+      <VideoSection />
       <LocationFacts />
       <Facilities />
       <UnitLayouts />
