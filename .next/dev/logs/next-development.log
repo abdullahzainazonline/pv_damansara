@@ -556,3 +556,4 @@ Import trace:
 [00:09:13.740] Server  LOG     ✓ Finished writing to filesystem cache in 16.0s
 [00:09:26.620] Server  LOG     ✓ Finished filesystem cache database compaction in 12.9s
 [00:09:35.783] Server  LOG     ✓ Compiled in 1644ms
+[00:21:45.149] Server  LOG     ✓ Compiled in 4.2s
