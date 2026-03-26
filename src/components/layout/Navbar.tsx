@@ -24,18 +24,12 @@ const navLinks = [
   { label: "Gallery", href: "#contact" },
 ];
 
-<<<<<<< HEAD
-const WA_LINK =
-  "https://api.whatsapp.com/send?phone=60122705608&text=Hi%2C+I+am+interested+in+Pavilion+Damansara+Heights";
+const WA_LINK = "https://api.whatsapp.com/send?phone=60122705608&text=Hi%2C+I+am+interested+in+Pavilion+Damansara+Heights";
 
-=======
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("hero");
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-<<<<<<< HEAD
   const [lang, setLang] = useState<"EN" | "ZH">("EN");
 
   /* ── Language Switcher ─────────────────────────────── */
@@ -65,8 +59,6 @@ export default function Navbar() {
       setLang("ZH");
     }
   }, []);
-=======
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
 
   useEffect(() => {
     const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
@@ -77,25 +69,13 @@ export default function Navbar() {
       const docHeight = document.documentElement.scrollHeight;
       const scrollY = window.scrollY;
 
-<<<<<<< HEAD
       setScrolled(scrollY > 50);
 
-=======
-      // Handle scroll state
-      setScrolled(scrollY > 50);
-
-      // If at the very bottom, activate the last section
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
       if (scrollY + windowHeight >= docHeight - 80) {
         setActiveSection(sectionIds[sectionIds.length - 1]);
         return;
       }
 
-<<<<<<< HEAD
-=======
-      // Pick the LAST section whose top has scrolled past the trigger point
-      // This ensures the active section stays correct through the entire section height
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
       const triggerY = windowHeight * 0.35;
       let currentSection = sectionIds[0];
 
@@ -103,10 +83,6 @@ export default function Navbar() {
         const el = document.getElementById(id);
         if (!el) continue;
         const top = el.getBoundingClientRect().top;
-<<<<<<< HEAD
-=======
-        // If this section's top is at or above the trigger, it's the current one
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
         if (top <= triggerY) {
           currentSection = id;
         }
@@ -126,11 +102,7 @@ export default function Navbar() {
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
-<<<<<<< HEAD
     updateActiveSection();
-=======
-    updateActiveSection(); // Set initial state
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -150,13 +122,7 @@ export default function Navbar() {
             {/* Logo (Left) */}
             <div className="flex flex-1 justify-start">
               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
-<<<<<<< HEAD
                 <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
-=======
-                {/* ── Logo Container (Transparent) ── */}
-                <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
-                  {/* Logo Image */}
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
                   <div className="relative w-full h-full">
                     <Image
                       src="/pdh_logo_1.png"
@@ -164,46 +130,24 @@ export default function Navbar() {
                       fill
                       sizes="(max-width: 640px) 160px, 288px"
                       className="object-contain transition-all duration-700 group-hover:scale-105"
-<<<<<<< HEAD
-=======
-                      style={{
-                        filter: scrolled
-                          ? "drop-shadow(0.5px 0.5px 0 rgba(0,0,0,0.8)) drop-shadow(-0.5px -0.5px 0 rgba(0,0,0,0.8)) drop-shadow(0.5px -0.5px 0 rgba(0,0,0,0.8)) drop-shadow(-0.5px 0.5px 0 rgba(0,0,0,0.8)) drop-shadow(0 2px 4px rgba(0,0,0,0.2))"
-                          : "drop-shadow(0 1px 5px rgba(0,0,0,0.3))",
-                      }}
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
                       priority
                     />
                   </div>
                 </div>
               </Link>
-            </div>
+            </div >
 
             {/* Desktop Links (Center) */}
             <div className="hidden lg:flex justify-center shrink-0">
-<<<<<<< HEAD
               <div className={`flex items-center gap-1 xl:gap-4 px-4 py-1.5 rounded-full transition-all duration-700 ${scrolled ? "bg-white/95 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.15)]" : "bg-transparent border border-transparent"}`}>
-                {navLinks.map((link, i) => {
-                  const isActive = activeSection === link.href.replace("#", "");
-                  const isHovered = hoveredIndex === i;
-=======
-              <div className={`flex items-center gap-1 xl:gap-4 px-4 py-1.5 rounded-full transition-all duration-700 ${scrolled ? "bg-white/95 backdrop-blur-xl border border-black/90 shadow-[0_8px_32px_rgba(0,0,0,0.15)]" : "bg-transparent border border-transparent"}`}>
                 {navLinks.map((link) => {
                   const isActive = activeSection === link.href.replace("#", "");
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-
                   return (
                     <a
                       key={link.href}
                       href={link.href}
                       onClick={() => setActiveSection(link.href.replace("#", ""))}
-<<<<<<< HEAD
-                      onMouseEnter={() => setHoveredIndex(i)}
-                      onMouseLeave={() => setHoveredIndex(null)}
-=======
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-                      className={`relative px-4 xl:px-6 py-2.5 text-[9.5px] xl:text-[11px] font-sans uppercase tracking-[0.25em] font-semibold transition-colors duration-500 rounded-full overflow-hidden group whitespace-nowrap flex items-center justify-center ${isActive ? "text-black" : (scrolled ? "text-[#555555] hover:text-black" : "text-white/70 hover:text-white")
-                        }`}
+                      className={`relative px-4 xl:px-6 py-2.5 text-[9.5px] xl:text-[11px] font-sans uppercase tracking-[0.25em] font-semibold transition-colors duration-500 rounded-full overflow-hidden group whitespace-nowrap flex items-center justify-center ${isActive ? "text-black" : (scrolled ? "text-[#555555] hover:text-black" : "text-white/70 hover:text-white")}`}
                     >
                       <span className="relative z-10 transition-transform duration-300 group-hover:scale-105">{link.label}</span>
                       {isActive && (
@@ -220,12 +164,10 @@ export default function Navbar() {
                   );
                 })}
               </div>
-            </div>
+            </div >
 
-<<<<<<< HEAD
             {/* CTA + Language Switcher + Mobile Toggle (Right) */}
             <div className="flex flex-1 justify-end items-center gap-2 sm:gap-3 shrink-0">
-
               {/* EN / ZH Language Toggle */}
               <div
                 className="flex items-center text-[11px] sm:text-xs font-semibold tracking-widest bg-white/5 border border-white/10 rounded-full px-2 py-1 sm:px-3 sm:py-1.5 cursor-pointer hover:bg-white/10 transition-colors backdrop-blur-md mr-1 sm:mr-0 shrink-0 select-none notranslate"
@@ -235,7 +177,7 @@ export default function Navbar() {
                 <span className={`transition-all duration-300 ${lang === "EN" ? (scrolled ? "text-[#C49A38] font-bold" : "text-[#ffd700] drop-shadow-[0_0_8px_rgba(255,215,0,0.5)]") : (scrolled ? "text-[#555]" : "text-white/50 hover:text-white/80")}`}>EN</span>
                 <span className="mx-1 sm:mx-1.5 opacity-30">/</span>
                 <span className={`font-sans font-medium transition-all duration-300 ${lang === "ZH" ? (scrolled ? "text-[#C49A38] font-bold" : "text-[#ffd700] drop-shadow-[0_0_8px_rgba(255,215,0,0.5)]") : (scrolled ? "text-[#555]" : "text-white/50 hover:text-white/80")}`}>中文</span>
-              </div>
+              </div >
 
               {/* Book Appointment CTA */}
               <a
@@ -247,23 +189,8 @@ export default function Navbar() {
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <span className="absolute top-0 left-[-100%] w-1/2 h-full bg-gradient-to-r from-transparent via-[#C49A38]/40 to-transparent transform -skew-x-12 group-hover:animate-[shine-sweep_1.5s_ease-in-out_infinite]" />
                 <span className="relative z-10 flex items-center gap-1.5 xl:gap-2 text-[9px] xl:text-[10px] uppercase font-sans tracking-[0.1em] font-semibold text-[#C49A38] group-hover:text-black transition-colors duration-500 whitespace-nowrap">
-                  <span className="hidden xl:inline"><WhatsAppIcon className="w-3.5 h-3.5 xl:w-4 xl:h-4" /></span>
-                  Book Appointment
-=======
-            {/* CTA + Mobile Toggle (Right) */}
-            <div className="flex flex-1 justify-end items-center gap-4">
-              <a
-                href="https://api.whatsapp.com/send?phone=601115223700&text=Hi%2C+I+am+interested+in+Pavilion+Damansara+Heights"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hidden md:inline-flex relative items-center justify-center px-6 py-2.5 group transition-all duration-500 overflow-hidden rounded-full bg-transparent border border-[#C49A38] hover:bg-[#C49A38] hover:shadow-[0_0_20px_rgba(196,154,56,0.4)] hover:-translate-y-0.5"
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <span className="absolute top-0 left-[-100%] w-1/2 h-full bg-gradient-to-r from-transparent via-[#C49A38]/40 to-transparent transform -skew-x-12 group-hover:animate-[shine-sweep_1.5s_ease-in-out_infinite]" />
-                <span className="relative z-10 flex items-center gap-2 text-[10px] uppercase font-sans tracking-[0.2em] font-semibold text-[#C49A38] group-hover:text-black transition-colors duration-500">
                   <WhatsAppIcon className="w-4 h-4" />
-                  <span>Register Now</span>
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+                  Book Appointment
                 </span>
               </a>
 
@@ -276,8 +203,8 @@ export default function Navbar() {
               </button>
             </div>
           </div>
-        </div>
-      </motion.nav>
+        </div >
+      </motion.nav >
 
       {/* Mobile Menu */}
       <AnimatePresence>
@@ -298,13 +225,11 @@ export default function Navbar() {
                   animate={{ opacity: 1, y: 0, rotateX: 0 }}
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ delay: i * 0.05, type: "spring", stiffness: 300, damping: 30 }}
-                  className={`text-2xl sm:text-3xl font-heading font-medium tracking-wider hover:text-[#C49A38] transition-all duration-500 ${activeSection === link.href.replace("#", "") ? "text-[#C49A38] scale-105" : "text-[#666666]/80"
-                    }`}
+                  className={`text-2xl sm:text-3xl font-heading font-medium tracking-wider hover:text-[#C49A38] transition-all duration-500 ${activeSection === link.href.replace("#", "") ? "text-[#C49A38] scale-105" : "text-[#666666]/80"}`}
                 >
                   {link.label}
                 </motion.a>
               ))}
-<<<<<<< HEAD
 
               {/* Mobile Book Appointment */}
               <div className="mt-6 flex flex-col items-center gap-4">
@@ -328,23 +253,12 @@ export default function Navbar() {
                   <span className="mx-2 opacity-30">/</span>
                   <span className={`transition-all duration-300 ${lang === "ZH" ? "text-[#C49A38] font-bold" : "text-gray-400"}`}>中文</span>
                 </div>
-=======
-              <div className="mt-8">
-                <a
-                  href="https://api.whatsapp.com/send?phone=601115223700&text=Hi%2C+I+am+interested+in+Pavilion+Damansara+Heights"
-                  target="_blank"
-                  className="btn-gold"
-                >
-                  <WhatsAppIcon className="w-4 h-4" />
-                  Register Now
-                </a>
->>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
               </div>
             </motion.div>
-          </motion.div>
+          </motion.div >
         )
         }
-      </AnimatePresence>
+      </AnimatePresence >
     </>
   );
 }

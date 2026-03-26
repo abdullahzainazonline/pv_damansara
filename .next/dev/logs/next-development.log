@@ -1,8 +1,558 @@
-[00:00:28.280] Server  LOG     ✓ Ready in 20.1s
-[00:00:42.321] Server  LOG     ○ Compiling / ...
-[00:01:20.017] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:01:26.364] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:30.098] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:01:32.622] Server  LOG     ○ Compiling /icon ...
-[00:01:56.687] Server  LOG     ✓ Finished writing to filesystem cache in 30.3s
-[00:02:13.409] Server  LOG     ✓ Finished filesystem cache database compaction in 21.7s
+[00:00:23.071] Server  LOG     ✓ Ready in 21.4s
+[00:00:27.965] Server  LOG     ○ Compiling / ...
+[00:00:46.354] Server  ERROR   ⨯ ./src/components/layout/Navbar.tsx:153:2
+Parsing ecmascript source code failed
+  151 |             <div className="flex flex-1 justify-start">
+  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
+> 153 | <<<<<<< HEAD
+      |  ^^
+  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
+  155 | =======
+  156 |                 {/* ── Logo Container (Transparent) ── */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:153:4
+Parsing ecmascript source code failed
+  151 |             <div className="flex flex-1 justify-start">
+  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
+> 153 | <<<<<<< HEAD
+      |    ^^
+  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
+  155 | =======
+  156 |                 {/* ── Logo Container (Transparent) ── */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:27:1
+Parsing ecmascript source code failed
+  25 | ];
+  26 |
+> 27 | <<<<<<< HEAD
+     | ^^^^^^^
+  28 | const WA_LINK =
+  29 |   "https://api.whatsapp.com/send?phone=60122705608&text=Hi%2C+I+am+interested+in+Pavilion+Damansara+Heights";
+  30 |
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:31:1
+Parsing ecmascript source code failed
+  29 |   "https://api.whatsapp.com/send?phone=60122705608&text=Hi%2C+I+am+interested+in+Pavilion+Damansara+Heights";
+  30 |
+> 31 | =======
+     | ^^^^^^^
+  32 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+  33 | export default function Navbar() {
+  34 |   const [scrolled, setScrolled] = useState(false);
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:32:1
+Parsing ecmascript source code failed
+  30 |
+  31 | =======
+> 32 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+     | ^^^^^^^
+  33 | export default function Navbar() {
+  34 |   const [scrolled, setScrolled] = useState(false);
+  35 |   const [activeSection, setActiveSection] = useState("hero");
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:38:1
+Parsing ecmascript source code failed
+  36 |   const [mobileOpen, setMobileOpen] = useState(false);
+  37 |   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+> 38 | <<<<<<< HEAD
+     | ^^^^^^^
+  39 |   const [lang, setLang] = useState<"EN" | "ZH">("EN");
+  40 |
+  41 |   /* ── Language Switcher ─────────────────────────────── */
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:68:1
+Parsing ecmascript source code failed
+  66 |     }
+  67 |   }, []);
+> 68 | =======
+     | ^^^^^^^
+  69 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+  70 |
+  71 |   useEffect(() => {
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:69:1
+Parsing ecmascript source code failed
+  67 |   }, []);
+  68 | =======
+> 69 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+     | ^^^^^^^
+  70 |
+  71 |   useEffect(() => {
+  72 |     const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:80:1
+Parsing ecmascript source code failed
+  78 |       const scrollY = window.scrollY;
+  79 |
+> 80 | <<<<<<< HEAD
+     | ^^^^^^^
+  81 |       setScrolled(scrollY > 50);
+  82 |
+  83 | =======
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:83:1
+Parsing ecmascript source code failed
+  81 |       setScrolled(scrollY > 50);
+  82 |
+> 83 | =======
+     | ^^^^^^^
+  84 |       // Handle scroll state
+  85 |       setScrolled(scrollY > 50);
+  86 |
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:88:1
+Parsing ecmascript source code failed
+  86 |
+  87 |       // If at the very bottom, activate the last section
+> 88 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+     | ^^^^^^^
+  89 |       if (scrollY + windowHeight >= docHeight - 80) {
+  90 |         setActiveSection(sectionIds[sectionIds.length - 1]);
+  91 |         return;
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:94:1
+Parsing ecmascript source code failed
+  92 |       }
+  93 |
+> 94 | <<<<<<< HEAD
+     | ^^^^^^^
+  95 | =======
+  96 |       // Pick the LAST section whose top has scrolled past the trigger point
+  97 |       // This ensures the active section stays correct through the entire section height
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:95:1
+Parsing ecmascript source code failed
+  93 |
+  94 | <<<<<<< HEAD
+> 95 | =======
+     | ^^^^^^^
+  96 |       // Pick the LAST section whose top has scrolled past the trigger point
+  97 |       // This ensures the active section stays correct through the entire section height
+  98 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:98:1
+Parsing ecmascript source code failed
+   96 |       // Pick the LAST section whose top has scrolled past the trigger point
+   97 |       // This ensures the active section stays correct through the entire section height
+>  98 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+      | ^^^^^^^
+   99 |       const triggerY = windowHeight * 0.35;
+  100 |       let currentSection = sectionIds[0];
+  101 |
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:106:1
+Parsing ecmascript source code failed
+  104 |         if (!el) continue;
+  105 |         const top = el.getBoundingClientRect().top;
+> 106 | <<<<<<< HEAD
+      | ^^^^^^^
+  107 | =======
+  108 |         // If this section's top is at or above the trigger, it's the current one
+  109 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:107:1
+Parsing ecmascript source code failed
+  105 |         const top = el.getBoundingClientRect().top;
+  106 | <<<<<<< HEAD
+> 107 | =======
+      | ^^^^^^^
+  108 |         // If this section's top is at or above the trigger, it's the current one
+  109 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+  110 |         if (top <= triggerY) {
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:109:1
+Parsing ecmascript source code failed
+  107 | =======
+  108 |         // If this section's top is at or above the trigger, it's the current one
+> 109 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+      | ^^^^^^^
+  110 |         if (top <= triggerY) {
+  111 |           currentSection = id;
+  112 |         }
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:129:1
+Parsing ecmascript source code failed
+  127 |
+  128 |     window.addEventListener("scroll", handleScroll, { passive: true });
+> 129 | <<<<<<< HEAD
+      | ^^^^^^^
+  130 |     updateActiveSection();
+  131 | =======
+  132 |     updateActiveSection(); // Set initial state
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:131:1
+Parsing ecmascript source code failed
+  129 | <<<<<<< HEAD
+  130 |     updateActiveSection();
+> 131 | =======
+      | ^^^^^^^
+  132 |     updateActiveSection(); // Set initial state
+  133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+  134 |
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/layout/Navbar.tsx:133:1
+Parsing ecmascript source code failed
+  131 | =======
+  132 |     updateActiveSection(); // Set initial state
+> 133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+      | ^^^^^^^
+  134 |
+  135 |     return () => window.removeEventListener("scroll", handleScroll);
+  136 |   }, []);
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/sections/Concierge.tsx:3:1
+Parsing ecmascript source code failed
+  1 | "use client";
+  2 |
+> 3 | <<<<<<< HEAD
+    | ^^^^^^^
+  4 | import { motion, AnimatePresence } from "framer-motion";
+  5 | import { useState, useRef, useEffect, useCallback } from "react";
+  6 | import Image from "next/image";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/sections/Concierge.tsx
+    ./src/app/page.tsx
+
+
+[00:00:49.387] Server  LOG     ○ Compiling /_error ...
+[00:00:51.432] Browser ERROR   uncaughtError: Error: ./src/components/layout/Navbar.tsx:153:4
+Parsing ecmascript source code failed
+  151 |             <div className="flex flex-1 justify-start">
+  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
+> 153 | <<<<<<< HEAD
+      |    ^^
+  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
+  155 | =======
+  156 |                 {/* ── Logo Container (Transparent) ── */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+
+
+[00:00:52.297] Browser ERROR   ./src/components/layout/Navbar.tsx:153:4
+Parsing ecmascript source code failed
+  151 |             <div className="flex flex-1 justify-start">
+  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
+> 153 | <<<<<<< HEAD
+      |    ^^
+  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
+  155 | =======
+  156 |                 {/* ── Logo Container (Transparent) ── */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+[00:00:52.297] Browser ERROR   ./src/components/layout/Navbar.tsx:133:1
+Parsing ecmascript source code failed
+  131 | =======
+  132 |     updateActiveSection(); // Set initial state
+> 133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+      | ^^^^^^^
+  134 |
+  135 |     return () => window.removeEventListener("scroll", handleScroll);
+  136 |   }, []);
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+[00:00:52.297] Browser ERROR   ./src/components/sections/Concierge.tsx:3:1
+Parsing ecmascript source code failed
+  1 | "use client";
+  2 |
+> 3 | <<<<<<< HEAD
+    | ^^^^^^^
+  4 | import { motion, AnimatePresence } from "framer-motion";
+  5 | import { useState, useRef, useEffect, useCallback } from "react";
+  6 | import Image from "next/image";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/sections/Concierge.tsx
+    ./src/app/page.tsx
+[00:00:52.297] Browser ERROR   ./src/components/layout/Navbar.tsx:153:4
+Parsing ecmascript source code failed
+  151 |             <div className="flex flex-1 justify-start">
+  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
+> 153 | <<<<<<< HEAD
+      |    ^^
+  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
+  155 | =======
+  156 |                 {/* ── Logo Container (Transparent) ── */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+[00:00:52.297] Browser ERROR   ./src/components/layout/Navbar.tsx:133:1
+Parsing ecmascript source code failed
+  131 | =======
+  132 |     updateActiveSection(); // Set initial state
+> 133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+      | ^^^^^^^
+  134 |
+  135 |     return () => window.removeEventListener("scroll", handleScroll);
+  136 |   }, []);
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+[00:00:52.297] Browser ERROR   ./src/components/sections/Concierge.tsx:3:1
+Parsing ecmascript source code failed
+  1 | "use client";
+  2 |
+> 3 | <<<<<<< HEAD
+    | ^^^^^^^
+  4 | import { motion, AnimatePresence } from "framer-motion";
+  5 | import { useState, useRef, useEffect, useCallback } from "react";
+  6 | import Image from "next/image";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/sections/Concierge.tsx
+    ./src/app/page.tsx
+[00:02:35.123] Browser ERROR   ./src/components/layout/Navbar.tsx:153:4
+Parsing ecmascript source code failed
+  151 |             <div className="flex flex-1 justify-start">
+  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
+> 153 | <<<<<<< HEAD
+      |    ^^
+  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
+  155 | =======
+  156 |                 {/* ── Logo Container (Transparent) ── */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+[00:02:35.134] Browser ERROR   ./src/components/layout/Navbar.tsx:133:1
+Parsing ecmascript source code failed
+  131 | =======
+  132 |     updateActiveSection(); // Set initial state
+> 133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
+      | ^^^^^^^
+  134 |
+  135 |     return () => window.removeEventListener("scroll", handleScroll);
+  136 |   }, []);
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Navbar.tsx
+    ./src/app/page.tsx
+[00:02:48.595] Server  LOG     ✓ Compiled in 986ms
+[00:03:00.120] Server  LOG     ○ Compiling / ...
+[00:03:02.788] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:03:07.376] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:26.895] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:03:28.595] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:29.437] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:55.752] Server  LOG     ✓ Compiled in 3.2s
+[00:09:13.740] Server  LOG     ✓ Finished writing to filesystem cache in 16.0s
+[00:09:26.620] Server  LOG     ✓ Finished filesystem cache database compaction in 12.9s
+[00:09:35.783] Server  LOG     ✓ Compiled in 1644ms
