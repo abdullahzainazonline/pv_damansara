@@ -213,7 +213,7 @@ function QRCodeModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void
                                 <img
                                     src="/wechat_qr.jpeg"
                                     alt="WeChat QR Code"
-                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                    className="w-full h-full object-contain p-2 transition-transform duration-300 group-hover:scale-105"
                                 />
                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300 rounded-xl" />
                             </div>

@@ -3,7 +3,8 @@ import Navbar from "@/components/layout/Navbar";
 import LocationFacts from "@/components/sections/LocationFacts";
 import UnitLayouts from "@/components/sections/UnitLayouts";
 import Facilities from "@/components/sections/Facilities";
-import Concierge from "@/components/sections/Concierge";
+import Corporate from "@/components/sections/Corporate";
+import Developer from "@/components/sections/Developer";
 import Contact from "@/components/sections/Contact";
 import VideoSection from "@/components/sections/VideoSection";
 
@@ -16,7 +17,8 @@ export default function Home() {
       <LocationFacts />
       <Facilities />
       <UnitLayouts />
-      <Concierge />
+      <Corporate />
+      <Developer />
       <Contact />
     </main>
   );

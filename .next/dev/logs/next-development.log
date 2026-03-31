@@ -1,559 +1,1759 @@
-[00:00:23.071] Server  LOG     ✓ Ready in 21.4s
-[00:00:27.965] Server  LOG     ○ Compiling / ...
-[00:00:46.354] Server  ERROR   ⨯ ./src/components/layout/Navbar.tsx:153:2
-Parsing ecmascript source code failed
-  151 |             <div className="flex flex-1 justify-start">
-  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
-> 153 | <<<<<<< HEAD
-      |  ^^
-  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
-  155 | =======
-  156 |                 {/* ── Logo Container (Transparent) ── */}
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:153:4
-Parsing ecmascript source code failed
-  151 |             <div className="flex flex-1 justify-start">
-  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
-> 153 | <<<<<<< HEAD
-      |    ^^
-  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
-  155 | =======
-  156 |                 {/* ── Logo Container (Transparent) ── */}
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:27:1
-Parsing ecmascript source code failed
-  25 | ];
-  26 |
-> 27 | <<<<<<< HEAD
-     | ^^^^^^^
-  28 | const WA_LINK =
-  29 |   "https://api.whatsapp.com/send?phone=60122705608&text=Hi%2C+I+am+interested+in+Pavilion+Damansara+Heights";
-  30 |
-
-Merge conflict marker encountered.
+[00:00:30.091] Server  LOG     ✓ Ready in 19.6s
+[00:05:35.833] Server  LOG     ○ Compiling / ...
+[00:06:12.202] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:06:28.060] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:56.951] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:07:58.215] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:52.904] Server  LOG     ✓ Compiled in 36.2s
+[00:10:49.884] Server  LOG     ✓ Compiled in 19.5s
+[00:13:49.467] Server  LOG     ✓ Compiled in 49s
+[00:14:20.258] Server  LOG     ✓ Compiled in 3.1s
+[00:14:31.618] Server  LOG     ✓ Compiled in 6.6s
+[00:19:11.513] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:19:45.487] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:51.795] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:19:51.799] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:20.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:22.664] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:22:24.496] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:35:36.497] Server  LOG     ✓ Compiled in 24.1s
+[00:35:54.538] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:36:02.059] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:39.473] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:40:39.839] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:42:06.719] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:46:11.578] Server  LOG     ✓ Compiled in 698ms
+[01:00:02.045] Server  LOG     ✓ Compiled in 8.5s
+[01:00:04.936] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:31:1
-Parsing ecmascript source code failed
-  29 |   "https://api.whatsapp.com/send?phone=60122705608&text=Hi%2C+I+am+interested+in+Pavilion+Damansara+Heights";
-  30 |
-> 31 | =======
-     | ^^^^^^^
-  32 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-  33 | export default function Navbar() {
-  34 |   const [scrolled, setScrolled] = useState(false);
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:32:1
-Parsing ecmascript source code failed
-  30 |
-  31 | =======
-> 32 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-     | ^^^^^^^
-  33 | export default function Navbar() {
-  34 |   const [scrolled, setScrolled] = useState(false);
-  35 |   const [activeSection, setActiveSection] = useState("hero");
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:00:40.793] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
 
 
-
-./src/components/layout/Navbar.tsx:38:1
-Parsing ecmascript source code failed
-  36 |   const [mobileOpen, setMobileOpen] = useState(false);
-  37 |   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-> 38 | <<<<<<< HEAD
-     | ^^^^^^^
-  39 |   const [lang, setLang] = useState<"EN" | "ZH">("EN");
-  40 |
-  41 |   /* ── Language Switcher ─────────────────────────────── */
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:68:1
-Parsing ecmascript source code failed
-  66 |     }
-  67 |   }, []);
-> 68 | =======
-     | ^^^^^^^
-  69 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-  70 |
-  71 |   useEffect(() => {
-
-Merge conflict marker encountered.
+[01:00:41.889] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:69:1
-Parsing ecmascript source code failed
-  67 |   }, []);
-  68 | =======
-> 69 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-     | ^^^^^^^
-  70 |
-  71 |   useEffect(() => {
-  72 |     const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:80:1
-Parsing ecmascript source code failed
-  78 |       const scrollY = window.scrollY;
-  79 |
-> 80 | <<<<<<< HEAD
-     | ^^^^^^^
-  81 |       setScrolled(scrollY > 50);
-  82 |
-  83 | =======
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:00:44.675] Server  LOG     ○ Compiling /_error ...
+[01:00:56.749] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:83:1
-Parsing ecmascript source code failed
-  81 |       setScrolled(scrollY > 50);
-  82 |
-> 83 | =======
-     | ^^^^^^^
-  84 |       // Handle scroll state
-  85 |       setScrolled(scrollY > 50);
-  86 |
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:88:1
-Parsing ecmascript source code failed
-  86 |
-  87 |       // If at the very bottom, activate the last section
-> 88 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-     | ^^^^^^^
-  89 |       if (scrollY + windowHeight >= docHeight - 80) {
-  90 |         setActiveSection(sectionIds[sectionIds.length - 1]);
-  91 |         return;
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:01:00.091] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:94:1
-Parsing ecmascript source code failed
-  92 |       }
-  93 |
-> 94 | <<<<<<< HEAD
-     | ^^^^^^^
-  95 | =======
-  96 |       // Pick the LAST section whose top has scrolled past the trigger point
-  97 |       // This ensures the active section stays correct through the entire section height
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:95:1
-Parsing ecmascript source code failed
-  93 |
-  94 | <<<<<<< HEAD
-> 95 | =======
-     | ^^^^^^^
-  96 |       // Pick the LAST section whose top has scrolled past the trigger point
-  97 |       // This ensures the active section stays correct through the entire section height
-  98 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:01:20.418] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:98:1
-Parsing ecmascript source code failed
-   96 |       // Pick the LAST section whose top has scrolled past the trigger point
-   97 |       // This ensures the active section stays correct through the entire section height
->  98 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-      | ^^^^^^^
-   99 |       const triggerY = windowHeight * 0.35;
-  100 |       let currentSection = sectionIds[0];
-  101 |
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:106:1
-Parsing ecmascript source code failed
-  104 |         if (!el) continue;
-  105 |         const top = el.getBoundingClientRect().top;
-> 106 | <<<<<<< HEAD
-      | ^^^^^^^
-  107 | =======
-  108 |         // If this section's top is at or above the trigger, it's the current one
-  109 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:01:20.418] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:107:1
-Parsing ecmascript source code failed
-  105 |         const top = el.getBoundingClientRect().top;
-  106 | <<<<<<< HEAD
-> 107 | =======
-      | ^^^^^^^
-  108 |         // If this section's top is at or above the trigger, it's the current one
-  109 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-  110 |         if (top <= triggerY) {
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:109:1
-Parsing ecmascript source code failed
-  107 | =======
-  108 |         // If this section's top is at or above the trigger, it's the current one
-> 109 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-      | ^^^^^^^
-  110 |         if (top <= triggerY) {
-  111 |           currentSection = id;
-  112 |         }
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:01:20.959] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
 
 
-
-./src/components/layout/Navbar.tsx:129:1
-Parsing ecmascript source code failed
-  127 |
-  128 |     window.addEventListener("scroll", handleScroll, { passive: true });
-> 129 | <<<<<<< HEAD
-      | ^^^^^^^
-  130 |     updateActiveSection();
-  131 | =======
-  132 |     updateActiveSection(); // Set initial state
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:131:1
-Parsing ecmascript source code failed
-  129 | <<<<<<< HEAD
-  130 |     updateActiveSection();
-> 131 | =======
-      | ^^^^^^^
-  132 |     updateActiveSection(); // Set initial state
-  133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-  134 |
-
-Merge conflict marker encountered.
+[01:01:21.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/layout/Navbar.tsx:133:1
-Parsing ecmascript source code failed
-  131 | =======
-  132 |     updateActiveSection(); // Set initial state
-> 133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-      | ^^^^^^^
-  134 |
-  135 |     return () => window.removeEventListener("scroll", handleScroll);
-  136 |   }, []);
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-
-./src/components/sections/Concierge.tsx:3:1
-Parsing ecmascript source code failed
-  1 | "use client";
-  2 |
-> 3 | <<<<<<< HEAD
-    | ^^^^^^^
-  4 | import { motion, AnimatePresence } from "framer-motion";
-  5 | import { useState, useRef, useEffect, useCallback } from "react";
-  6 | import Image from "next/image";
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:01:21.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/sections/Concierge.tsx
-    ./src/app/page.tsx
-
-
-[00:00:49.387] Server  LOG     ○ Compiling /_error ...
-[00:00:51.432] Browser ERROR   uncaughtError: Error: ./src/components/layout/Navbar.tsx:153:4
-Parsing ecmascript source code failed
-  151 |             <div className="flex flex-1 justify-start">
-  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
-> 153 | <<<<<<< HEAD
-      |    ^^
-  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
-  155 | =======
-  156 |                 {/* ── Logo Container (Transparent) ── */}
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-
-
-[00:00:52.297] Browser ERROR   ./src/components/layout/Navbar.tsx:153:4
-Parsing ecmascript source code failed
-  151 |             <div className="flex flex-1 justify-start">
-  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
-> 153 | <<<<<<< HEAD
-      |    ^^
-  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
-  155 | =======
-  156 |                 {/* ── Logo Container (Transparent) ── */}
-
-Expression expected
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:02:57.768] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-[00:00:52.297] Browser ERROR   ./src/components/layout/Navbar.tsx:133:1
-Parsing ecmascript source code failed
-  131 | =======
-  132 |     updateActiveSection(); // Set initial state
-> 133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-      | ^^^^^^^
-  134 |
-  135 |     return () => window.removeEventListener("scroll", handleScroll);
-  136 |   }, []);
-
-Merge conflict marker encountered.
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-[00:00:52.297] Browser ERROR   ./src/components/sections/Concierge.tsx:3:1
-Parsing ecmascript source code failed
-  1 | "use client";
-  2 |
-> 3 | <<<<<<< HEAD
-    | ^^^^^^^
-  4 | import { motion, AnimatePresence } from "framer-motion";
-  5 | import { useState, useRef, useEffect, useCallback } from "react";
-  6 | import Image from "next/image";
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:03:05.063] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/sections/Concierge.tsx
-    ./src/app/page.tsx
-[00:00:52.297] Browser ERROR   ./src/components/layout/Navbar.tsx:153:4
-Parsing ecmascript source code failed
-  151 |             <div className="flex flex-1 justify-start">
-  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
-> 153 | <<<<<<< HEAD
-      |    ^^
-  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
-  155 | =======
-  156 |                 {/* ── Logo Container (Transparent) ── */}
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-[00:00:52.297] Browser ERROR   ./src/components/layout/Navbar.tsx:133:1
-Parsing ecmascript source code failed
-  131 | =======
-  132 |     updateActiveSection(); // Set initial state
-> 133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-      | ^^^^^^^
-  134 |
-  135 |     return () => window.removeEventListener("scroll", handleScroll);
-  136 |   }, []);
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:03:22.626] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-[00:00:52.297] Browser ERROR   ./src/components/sections/Concierge.tsx:3:1
-Parsing ecmascript source code failed
-  1 | "use client";
-  2 |
-> 3 | <<<<<<< HEAD
-    | ^^^^^^^
-  4 | import { motion, AnimatePresence } from "framer-motion";
-  5 | import { useState, useRef, useEffect, useCallback } from "react";
-  6 | import Image from "next/image";
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
 
-Merge conflict marker encountered.
 
-Import trace:
-  Server Component:
-    ./src/components/sections/Concierge.tsx
-    ./src/app/page.tsx
-[00:02:35.123] Browser ERROR   ./src/components/layout/Navbar.tsx:153:4
-Parsing ecmascript source code failed
-  151 |             <div className="flex flex-1 justify-start">
-  152 |               <Link href="#hero" className="flex items-center group relative z-50 transition-all duration-500 hover:scale-110 active:scale-95">
-> 153 | <<<<<<< HEAD
-      |    ^^
-  154 |   <div className="relative w-40 sm:w-72 h-12 sm:h-24 flex flex-col justify-center items-center transition-all duration-700 px-0">
-  155 | =======
-  156 |                 {/* ── Logo Container (Transparent) ── */}
-
-Expression expected
+[01:03:22.812] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-[00:02:35.134] Browser ERROR   ./src/components/layout/Navbar.tsx:133:1
-Parsing ecmascript source code failed
-  131 | =======
-  132 |     updateActiveSection(); // Set initial state
-> 133 | >>>>>>> 2588cb518e3b49f43514aad834219d5564d5ca0e
-      | ^^^^^^^
-  134 |
-  135 |     return () => window.removeEventListener("scroll", handleScroll);
-  136 |   }, []);
-
-Merge conflict marker encountered.
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:03:22.897] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
 Import trace:
-  Server Component:
-    ./src/components/layout/Navbar.tsx
-    ./src/app/page.tsx
-[00:02:48.595] Server  LOG     ✓ Compiled in 986ms
-[00:03:00.120] Server  LOG     ○ Compiling / ...
-[00:03:02.788] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:03:07.376] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:26.895] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
-[00:03:28.595] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:29.437] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:55.752] Server  LOG     ✓ Compiled in 3.2s
-[00:09:13.740] Server  LOG     ✓ Finished writing to filesystem cache in 16.0s
-[00:09:26.620] Server  LOG     ✓ Finished filesystem cache database compaction in 12.9s
-[00:09:35.783] Server  LOG     ✓ Compiled in 1644ms
-[00:21:45.149] Server  LOG     ✓ Compiled in 4.2s
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:03:23.373] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:03:23.603] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:03:23.603] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:03:41.728] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:03:45.980] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:03:46.664] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:03:46.892] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:03:46.892] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:03:46.892] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1327:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:03:55.791] Server  LOG     ✓ Finished filesystem cache database compaction in 11.9s
+[01:04:00.718] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:04:01.583] Server  LOG     ✓ Compiled in 4.8s
+[01:04:03.308] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:04.348] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:04:05.056] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:17.129] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:13:14.516] Server  ERROR   ⨯ ReferenceError: Montserrat is not defined
+[01:13:15.712] Server  ERROR   ⨯ ReferenceError: Montserrat is not defined
+[01:13:15.852] Server  LOG     ✓ Finished writing to filesystem cache in 18.6s
+[01:13:15.853] Server  LOG     ✓ Finished writing to filesystem cache in 10.9s
+[01:13:17.906] Server  ERROR   ⨯ ReferenceError: Montserrat is not defined
+[01:13:19.543] Server  ERROR   ⨯ ReferenceError: Montserrat is not defined
+[01:13:22.106] Server  ERROR   ⨯ ReferenceError: Montserrat is not defined
+[01:13:23.406] Server  ERROR   ⨯ ReferenceError: Montserrat is not defined
+[01:13:24.239] Browser ERROR   uncaughtError: ReferenceError: Montserrat is not defined
+[01:13:59.812] Server  LOG     ✓ Compiled in 1385ms
+[01:14:52.959] Server  LOG     ✓ Compiled in 805ms
+[01:14:53.653] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:14:56.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:22.874] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:16:23.052] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:17:13.865] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:18:21.048] Server  LOG     ✓ Compiled in 16.8s
+[01:18:21.515] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:19:18.720] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:19:19.720] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:20:23.330] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:20:24.001] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:20:24.729] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:20:25.012] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:20:25.012] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:23:11.729] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:23:33.308] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:23:33.514] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:23:34.517] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:23:34.838] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:23:34.838] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:23:34.838] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:24:56.962] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:25:05.853] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:25:06.768] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:25:06.992] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:25:06.992] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:27:13.215] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:27:13.762] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:27:13.955] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:27:13.955] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:28:06.447] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:28:06.850] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[01:28:07.045] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:28:07.045] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\G\assignment work\capstone\web_dev_malay\Pavilion_Damansara\frontend\src\app\globals.css:1328:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[01:34:38.163] Server  LOG     ✓ Compiled in 14.7s
+[01:34:45.758] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:35:13.475] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:24.860] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:35:25.820] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:35:41.623] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:42.881] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:39:55.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:56.153] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:39:57.066] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:45:01.929] Server  LOG     ✓ Compiled in 3.2s
+[01:48:27.414] Server  LOG     ✓ Compiled in 16.8s
+[01:49:02.442] Server  LOG     ✓ Compiled in 1098ms
+[01:51:18.004] Server  LOG     ✓ Compiled in 1100ms
+[01:54:18.925] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:54:36.616] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:39.794] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:54:42.558] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:55:45.550] Server  LOG     ✓ Compiled in 2s
+[01:56:23.654] Server  LOG     ✓ Compiled in 816ms
+[01:56:46.132] Server  LOG     ✓ Compiled in 273ms
+[01:57:10.440] Server  LOG     ✓ Compiled in 1287ms
+[01:59:38.855] Server  LOG     ✓ Compiled in 2.3s
+[01:59:55.599] Server  LOG     ✓ Compiled in 2.3s
+[02:01:51.309] Server  LOG     ✓ Compiled in 1946ms
+[02:02:13.975] Server  LOG     ✓ Compiled in 8.5s
+[02:04:19.332] Server  LOG     ✓ Compiled in 4s
+[02:04:56.449] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:05:03.081] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:05:05.228] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:05:06.812] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:11:55.534] Server  LOG     ✓ Compiled in 1457ms
+[02:12:20.809] Server  LOG     ✓ Compiled in 717ms
+[02:13:39.066] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:13:46.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:13:47.438] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:13:49.504] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:27.389] Server  LOG     ✓ Compiled in 15.2s
+[02:22:09.143] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:22:19.958] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:22:20.613] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:23:11.272] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:23:27.380] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:23:29.177] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:23:29.177] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:30:26.734] Server  LOG     ✓ Compiled in 8.7s
+[02:31:00.214] Server  LOG     ✓ Compiled in 783ms
+[02:31:05.284] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'type')
+[02:31:46.545] Server  LOG     ✓ Compiled in 6.6s
+[02:31:48.515] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:32:00.709] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:32:54.442] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:32:55.734] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:32:56.499] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:34:43.754] Server  LOG     ✓ Compiled in 38.8s
+[02:34:44.213] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'type')
+[02:34:44.310] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:34:58.981] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:35:47.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:35:53.722] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:35:54.629] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:42:33.715] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:54:26.662] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:26.909] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.235] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.508] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.652] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.681] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.741] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.745] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.767] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.785] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.810] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.812] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.930] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:29.933] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:30.058] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:30.067] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:54:30.745] Server  LOG     ✓ Compiled in 16.9s
+[02:55:07.753] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Concierge'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Concierge from "@/components/sections/Concierge";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Concierge' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[02:58:24.325] Server  LOG     ✓ Compiled in 8.2s
+[02:58:51.649] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:58:51.678] Server  LOG     ✓ Finished filesystem cache database compaction in 17.8s
+[03:02:17.955] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:17.995] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.455] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.457] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.469] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.471] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.475] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.476] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.488] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.490] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.505] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.509] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.524] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.526] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.536] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.538] Server  ERROR   ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:02:18.551] Server  LOG     ✓ Compiled in 2.8s
+[03:02:19.727] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/Corporate'
+  4 | import UnitLayouts from "@/components/sections/UnitLayouts";
+  5 | import Facilities from "@/components/sections/Facilities";
+> 6 | import Corporate from "@/components/sections/Corporate";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Contact from "@/components/sections/Contact";
+  8 | import VideoSection from "@/components/sections/VideoSection";
+  9 |
+
+Import map: aliased to relative './src/components/sections/Corporate' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[03:03:21.432] Server  LOG     ✓ Compiled in 3.8s
+[03:03:25.380] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:05:24.433] Server  LOG     ✓ Compiled in 4.9s
+[03:05:53.763] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:06:11.904] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:06:11.904] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:06:11.904] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:06:31.044] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:06:37.750] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:06:44.898] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:07:17.709] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:07:20.752] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:07:35.791] Server  LOG     ✓ Compiled in 7.6s
+[03:07:54.727] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:07:57.370] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:10:37.153] Server  LOG     ✓ Compiled in 1913ms
+[03:10:46.789] Browser ERROR   uncaughtError: ReferenceError: PHASES is not defined
+[03:11:11.423] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:11:13.071] Server  ERROR   ⨯ ReferenceError: PHASES is not defined
+[03:11:17.418] Browser ERROR   uncaughtError: ReferenceError: PHASES is not defined
+[03:11:42.739] Server  LOG     ✓ Compiled in 7.8s
+[03:11:43.542] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:11:45.802] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:11:46.688] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__5620fbb2._.css
+[03:11:53.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:12:36.781] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:12:38.993] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:12:51.612] Server  LOG     ✓ Compiled in 15.8s
+[03:14:07.795] Server  LOG     ✓ Compiled in 4.1s
+[03:14:25.030] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:14:27.804] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:14:36.306] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:15:10.354] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:15:18.788] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:15:20.725] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:15:32.390] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levels 15-23, 25-31
+[03:20:24.398] Server  LOG     ✓ Compiled in 5.6s
+[03:20:43.478] Server  LOG     ✓ Compiled in 2.5s
+[03:21:25.192] Server  LOG     ✓ Compiled in 721ms
+[03:22:16.829] Server  LOG     ✓ Compiled in 717ms
+[03:22:34.799] Server  LOG     ✓ Compiled in 1623ms
+[03:23:57.075] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:24:07.493] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:08.534] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:24:09.831] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:24:31.647] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:30:58.688] Server  LOG     ✓ Compiled in 2.1s
+[03:31:07.782] Server  LOG     ✓ Compiled in 695ms
+[03:31:09.350] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:31:21.492] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:31:21.701] Server  LOG     ✓ Compiled in 1077ms
+[03:31:35.090] Server  LOG     ✓ Compiled in 366ms
+[03:34:35.622] Server  LOG     ✓ Compiled in 6.9s
+[03:35:06.782] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:35:15.440] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:35:17.249] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:35:17.250] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:35:17.484] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:35:30.598] Server  LOG     ✓ Compiled in 875ms
+[03:37:34.807] Server  LOG     ✓ Compiled in 7.8s
+[03:38:20.196] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:38:24.057] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:38:25.448] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:38:25.448] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:38:25.675] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:43:55.610] Server  LOG     ✓ Compiled in 1687ms
+[03:44:20.558] Server  LOG     ✓ Compiled in 1465ms
+[03:44:39.135] Server  LOG     ✓ Compiled in 1659ms
+[03:45:25.587] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:45:29.209] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:45:30.475] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:45:45.892] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:45:45.892] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:49:02.305] Server  LOG     ✓ Compiled in 2.6s
+[03:49:21.789] Server  LOG     ✓ Compiled in 480ms
+[03:49:48.300] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:49:53.270] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:49:54.840] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:49:57.973] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:49:57.973] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:50:12.667] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:50:20.840] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:50:21.997] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:58:57.880] Server  LOG     ✓ Compiled in 2.2s
+[04:02:28.390] Server  LOG     ✓ Compiled in 1137ms
+[04:04:08.057] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:04:11.714] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:04:12.806] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:07:08.889] Server  LOG     ✓ Compiled in 1232ms
+[04:14:28.527] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:14:28.691] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:16:13.445] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:16:30.091] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:16:31.546] Browser WARN    Image with src "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:16:55.375] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:18:26.765] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:18:52.611] Server  LOG     ✓ Compiled in 1820ms
+[04:19:26.407] Server  LOG     ✓ Compiled in 1010ms
+[04:23:30.384] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:23:30.385] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:30:39.911] Server  LOG     ✓ Compiled in 7.1s
+[04:33:01.167] Server  LOG     ✓ Compiled in 4s
+[04:39:56.006] Server  LOG     ✓ Compiled in 7.9s
+[04:43:31.166] Server  LOG     ✓ Compiled in 9.5s
+[04:44:07.656] Server  LOG     ✓ Compiled in 5.1s
+[04:46:05.371] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:46:13.327] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:46:14.026] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:46:14.868] Browser WARN    Image with src "/pdh/ct10_e-broucher__p3_img1.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:46:15.594] Browser WARN    Image with src "/pdh/pdh_overview_(luxury_p6_img1.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:46:56.582] Server  LOG     ✓ Compiled in 7s
+[04:47:17.470] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:47:32.862] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:47:33.875] Browser WARN    Image with src "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:48:58.219] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:49:01.675] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:49:45.716] Server  LOG     ✓ Compiled in 4.6s
+[04:50:07.511] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:50:07.982] Server  LOG     ✓ Finished writing to filesystem cache in 15.2s
+[04:50:15.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:50:21.384] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:50:21.905] Browser WARN    Image with src "/pdh/ct10_e-broucher__p6_img1.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:50:22.663] Browser WARN    Image with src "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:53:00.373] Browser WARN    Image with src "/pdh_logo_1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:53:00.568] Browser WARN    Image with src "/zeon_group.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:56:27.409] Server  LOG     ✓ Compiled in 2.6s
+[05:14:54.097] Server  LOG     ✓ Finished filesystem cache database compaction in 42s

@@ -51,7 +51,7 @@ const socials = [
 const quickLinks = [
     { label: "Unit Layouts", href: "#units" },
     { label: "Facilities", href: "#facilities" },
-    { label: "Concierge Services", href: "#concierge" },
+    { label: "Corporate Services", href: "#Corporate" },
     { label: "Location", href: "#location" },
 ];
 
@@ -111,7 +111,7 @@ function QRCodeModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void
                                 <img
                                     src="/wechat_qr.jpeg"
                                     alt="WeChat QR Code"
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-contain p-2"
                                 />
                             </div>
                         </div>
@@ -323,8 +323,8 @@ export default function Contact() {
                             <span className="text-[10px] font-sans uppercase tracking-[0.4em] font-bold text-[#C49A38]">Priority Access</span>
                         </div>
 
-                        <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-heading font-normal text-[#333333] leading-[1.05] tracking-tight mb-4 mx-auto">
-                            Register Your <em className="text-[#C49A38] italic font-light">Enquiry</em>
+                        <h2 className="text-[12vw] min-[390px]:text-[13vw] sm:text-5xl md:text-6xl lg:text-7xl font-heading font-black text-[#333333] leading-[0.9] tracking-tight mb-4 mx-auto">
+                            Register Your <em style={{ fontStyle: "normal", WebkitTextFillColor: "transparent", background: "linear-gradient(135deg,#C49A38,#E8C66A)", WebkitBackgroundClip: "text", backgroundClip: "text" }}>Enquiry</em>
                         </h2>
                         <div className="w-16 h-[2px] bg-[#C49A38] mb-8 mx-auto" />
 
@@ -468,48 +468,45 @@ export default function Contact() {
                 <div className="absolute inset-0 opacity-[0.06]" style={{ backgroundImage: "radial-gradient(ellipse 60% 50% at 50% 0%, rgba(196,154,56,0.8) 0%, transparent 70%)" }} />
                 <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#C49A38] to-transparent" />
 
-                <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 pt-16 sm:pt-20 pb-10">
-
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
-
-                        {/* Brand */}
-                        <div className="lg:col-span-12 flex flex-col items-center text-center">
-                            <div className="flex items-center gap-6 mb-8">
-                                <Image src="/pdh_logo_1.png" alt="Pavilion Damansara Heights" width={200} height={65} className="object-contain" />
-                                <div className="w-px h-12 bg-white/20" />
-                                <Image src="/zeon_group.png" alt="Zeon Group" width={90} height={55} className="object-contain brightness-150 invert opacity-80" />
-                            </div>
-
-                            <p className="text-[14px] font-sans font-light text-white/50 leading-relaxed max-w-2xl mb-10">
-                                This website is independently managed by <span className="notranslate font-bold text-white/70">Zeon Properties International Sdn. Bhd.</span> (E(3)0812), an appointed real estate agency in Malaysia. This is not the developer's official website.
-                            </p>
-
-                            <nav className="flex flex-wrap items-center justify-center gap-x-12 gap-y-4 mb-10">
-                                {quickLinks.map((l) => (
-                                    <a key={l.label} href={l.href} className="text-[11px] font-sans font-bold uppercase tracking-[0.3em] text-[#C49A38] hover:text-white transition-colors">
-                                        {l.label}
-                                    </a>
-                                ))}
-                            </nav>
-
-                            <div className="flex flex-wrap items-center justify-center gap-12 py-8 border-y border-white/5 w-full">
-                                <a href="tel:+60122705608" className="flex items-center gap-4 group">
-                                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[#C49A38]/10 transition-colors"><Phone className="w-4 h-4 text-[#C49A38]" /></div>
-                                    <span className="text-[15px] font-sans font-semibold text-white/70 group-hover:text-white transition-colors">+60 12-270 5608</span>
-                                </a>
-                                <a href="https://wa.me/60122705608" className="flex items-center gap-4 group">
-                                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[#C49A38]/10 transition-colors"><WhatsAppIcon className="w-4 h-4 text-[#C49A38]" /></div>
-                                    <span className="text-[15px] font-sans font-semibold text-white/70 group-hover:text-white transition-colors">WhatsApp Us</span>
-                                </a>
-                                <div className="flex items-center gap-4">
-                                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center"><MapPin className="w-4 h-4 text-white/30" /></div>
-                                    <span className="text-[14px] font-sans font-light text-white/40 italic">Damansara Heights, Kuala Lumpur</span>
-                                </div>
-                            </div>
+                <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 pt-20 pb-12">
+                    <div className="flex flex-col lg:flex-row items-center justify-between gap-12 border-b border-white/10 pb-12">
+                        {/* Logos */}
+                        <div className="flex flex-col sm:flex-row items-center gap-8 bg-white/5 px-8 py-6 rounded-2xl border border-white/5 shadow-[0_0_40px_rgba(196,154,56,0.03)]">
+                            <Image src="/pdh_logo_1.png" alt="Pavilion Damansara Heights" width={180} height={55} className="object-contain drop-shadow-lg" />
+                            <div className="hidden sm:block w-px h-16 bg-gradient-to-b from-transparent via-[#C49A38]/50 to-transparent" />
+                            <div className="block sm:hidden h-px w-32 bg-gradient-to-r from-transparent via-[#C49A38]/50 to-transparent" />
+                            <Image src="/zeon_group.png" alt="Zeon Group" width={120} height={50} className="object-contain drop-shadow-md" />
                         </div>
+                        {/* Quick Links */}
+                        <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4 max-w-md lg:justify-end">
+                            {quickLinks.map((l) => (
+                                <a key={l.label} href={l.href} className="text-[12px] font-sans font-bold uppercase tracking-[0.2em] text-[#C49A38] hover:text-white hover:drop-shadow-[0_0_8px_rgba(196,154,56,0.8)] transition-all">
+                                    {l.label}
+                                </a>
+                            ))}
+                        </nav>
                     </div>
 
+                    <div className="flex flex-col lg:flex-row items-center justify-between gap-8 pt-10">
+                        <div className="flex flex-wrap items-center justify-center lg:justify-start gap-8">
+                            <a href="tel:+60122705608" className="flex items-center gap-3 group">
+                                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#C49A38]/20 to-transparent border border-[#C49A38]/20 flex items-center justify-center group-hover:scale-110 transition-transform"><Phone className="w-4 h-4 text-[#C49A38]" /></div>
+                                <span className="text-[15px] font-sans font-semibold text-white/80 group-hover:text-white transition-colors">+60 12-270 5608</span>
+                            </a>
+                            <a href="https://wa.me/60122705608" className="flex items-center gap-3 group">
+                                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#25D366]/20 to-transparent border border-[#25D366]/20 flex items-center justify-center group-hover:scale-110 transition-transform"><WhatsAppIcon className="w-4 h-4 text-[#25D366]" /></div>
+                                <span className="text-[15px] font-sans font-semibold text-white/80 group-hover:text-white transition-colors">WhatsApp Us</span>
+                            </a>
+                            <div className="flex items-center gap-3">
+                                <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center"><MapPin className="w-4 h-4 text-white/40" /></div>
+                                <span className="text-[14px] font-sans font-light text-white/50">Damansara Heights, Kuala Lumpur</span>
+                            </div>
+                        </div>
 
+                        <p className="text-[12px] font-sans font-light text-white/40 text-center lg:text-right max-w-lg leading-relaxed">
+                            This website is independently managed by <span className="notranslate font-semibold text-white/60">Zeon Properties International Sdn. Bhd.</span> (E(3)0812), an appointed real estate agency in Malaysia. This is not the developer's official website.
+                        </p>
+                    </div>
                 </div>
             </footer>
 

@@ -223,6 +223,7 @@ export default function Facilities() {
                 initial={{ opacity: 0, x: 40, scale: 0.95, rotateY: 5 }}
                 animate={{ opacity: 1, x: 0, scale: 1, rotateY: 0 }}
                 exit={{ opacity: 0, x: -40, scale: 0.95, rotateY: -5 }}
+                whileHover={{ y: -8, scale: 1.015 }}
                 transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                 drag="x"
                 dragConstraints={{ left: 0, right: 0 }}
@@ -234,7 +235,7 @@ export default function Facilities() {
                     prevSlide();
                   }
                 }}
-                className="relative w-full rounded-3xl overflow-hidden img-card-hover aspect-[4/5] sm:aspect-[3/4] lg:aspect-square xl:aspect-[4/5] group shadow-[0_20px_50px_rgba(0,0,0,0.5)] transform-gpu hover:-translate-y-2 lg:transition-transform lg:duration-700 cursor-grab active:cursor-grabbing touch-pan-y"
+                className="relative w-full rounded-3xl overflow-hidden aspect-[4/5] sm:aspect-[3/4] lg:aspect-square xl:aspect-[4/5] group shadow-[0_20px_50px_rgba(0,0,0,0.5)] transform-gpu border border-white/10 cursor-grab active:cursor-grabbing touch-pan-y"
               >
                 {/* Main image */}
                 <Image
@@ -306,3 +307,4 @@ export default function Facilities() {
     </section>
   );
 }
+

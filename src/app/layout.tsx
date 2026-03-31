@@ -1,24 +1,18 @@
 import type { Metadata, Viewport } from "next";
-import { Montserrat, Playfair_Display, Cormorant_Garamond } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/layout/SmoothScroll";
 import ViewportNormalizer from "@/components/layout/ViewportNormalizer";
 import WhatsAppFAB from "@/components/layout/WhatsAppFAB";
 
-const montserrat = Montserrat({
+const inter = Inter({
   variable: "--font-sans",
   subsets: ["latin"],
 });
 
-const playfair = Playfair_Display({
+const outfit = Outfit({
   variable: "--font-heading",
   subsets: ["latin"],
-});
-
-const cormorant = Cormorant_Garamond({
-  variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const viewport: Viewport = {
@@ -82,7 +76,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${montserrat.variable} ${playfair.variable} ${cormorant.variable} antialiased bg-dark-bg text-champagne`}
+        className={`${inter.variable} ${outfit.variable} antialiased bg-dark-bg text-champagne`}
         suppressHydrationWarning
       >
         <ViewportNormalizer />

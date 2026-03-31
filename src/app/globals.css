@@ -499,6 +499,47 @@ h6 {
   transition-delay: 0.6s;
 }
 
+/* ── Hide Google Translate Banner ───────────────────── */
+.skiptranslate.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+#goog-gt-tt {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  display: none !important;
+  color: transparent !important;
+}
+
+.goog-tooltip {
+  display: none !important;
+}
+
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+body > .skiptranslate > iframe.goog-te-banner-frame {
+  display: none !important;
+}
+
 /* ── Kenburns Effect ────────────────────────────────── */
 @keyframes kenburns {
   0% {
@@ -1574,4 +1615,19 @@ h6 {
 
 .hero-dot {
   animation: dot-pulse 2.5s ease-in-out infinite;
+}
+
+/* Hide Google Translate Bar */
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.skiptranslate.goog-te-gadget, 
+#goog-gt-tt, 
+.goog-tooltip {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
 }

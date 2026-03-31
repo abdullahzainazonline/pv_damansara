@@ -210,7 +210,7 @@ export default function Hero() {
             </motion.div>
 
             {/* ═══ THE HEADLINE STACK ═══ */}
-            <div className="flex flex-col items-center">
+            <div className="notranslate flex flex-col items-center" translate="no">
 
               {/* PAVILION — Cormorant Garamond, semi-bold white with gold glow */}
               <motion.div
@@ -219,7 +219,7 @@ export default function Hero() {
                 transition={{ duration: 2, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
               >
                 <h1
-                  className="text-[11vw] sm:text-[6rem] md:text-[7.5rem] lg:text-[9rem] leading-[0.85] uppercase"
+                  className="text-[12vw] sm:text-6xl md:text-7xl lg:text-[7rem] leading-[0.9] font-heading font-black tracking-tighter whitespace-nowrap uppercase notranslate" translate="no"
                   style={{
                     fontFamily: "var(--font-display)",
                     fontWeight: 600,
@@ -246,7 +246,7 @@ export default function Hero() {
               >
                 {/* Main DAMANSARA text */}
                 <span
-                  className="hero-title-damansara block text-[11vw] sm:text-[6rem] md:text-[7.5rem] lg:text-[9rem] leading-[0.85]"
+                  className="hero-title-damansara block text-[7vw] sm:text-[4rem] md:text-[5rem] lg:text-[6.5rem] leading-[0.85]"
                 >
                   Damansara
                 </span>

@@ -5,54 +5,85 @@ import { ArrowRight } from "lucide-react";
 
 export default function LocationFacts() {
   return (
-    <section id="location" className="relative bg-[#100D0A] flex w-full overflow-hidden border-t border-[#C49A38]/30">
+    <section id="location" className="relative bg-[#f4ebd0] flex flex-col w-full overflow-hidden py-12">
+      {/* 
+        Section Title 
+      */}
+      <div className="w-full flex flex-col items-center justify-center text-center px-4 mb-8 z-20">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <h2
+            className="text-5xl md:text-6xl lg:text-[6.5rem] font-heading font-normal text-[#C49A38] uppercase tracking-[0.15em] sm:tracking-[0.2em]"
+          >
+            Location
+          </h2>
+        </motion.div>
+      </div>
 
       {/* 
-        The entire section uses the map taking full width. 
-        We use a border top and inner gradient to cleanly divide from the Hero section and prevent visual overlaps.
+        Map Container (Scrollable on Mobile)
       */}
-      <div className="relative w-full">
-
-        {/* Map Container with Horizontal Scroll for Mobile */}
-        <div className="w-full overflow-x-auto overflow-y-hidden hide-scrollbar [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] scroll-smooth cursor-grab active:cursor-grabbing relative z-0">
-          <div className="relative w-[180%] sm:w-[150%] md:w-full min-w-[1000px] max-w-none">
-
-            <img
-              src="/location_map.svg"
-              alt="Pavilion Damansara Heights Location Map"
-              className="w-full h-auto block pointer-events-none object-cover"
-            />
-
-            {/* 
-              Creative Solution: A rich, sweeping dark gradient overlay at the top of the map. 
-              This smoothly fades the dense map roads into the black background, 
-              guaranteeing the LOCATION title is 100% readable without breaking the full map aesthetic! 
-            */}
-            <div className="absolute top-0 inset-x-0 h-56 sm:h-72 bg-gradient-to-b from-[#100D0A] via-[#100D0A]/80 to-transparent pointer-events-none z-10" />
-
+      <div className="w-full relative px-0 sm:px-8 md:px-16 lg:px-24">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="relative w-full flex flex-col items-center gap-6 lg:gap-8 z-10 overflow-x-auto overflow-y-hidden pb-10 scrollbar-hide [&::-webkit-scrollbar]:hidden"
+          style={{ WebkitOverflowScrolling: "touch", scrollbarWidth: "none", msOverflowStyle: "none" }}
+        >
+          {/* Scrollable Container Content */}
+          <div className="flex flex-row items-end w-max lg:w-full min-w-[900px] sm:min-w-0 px-4 sm:px-0 mx-auto">
+            {/* Base SVG Map */}
+            <div className="relative w-full flex-shrink-0">
+              {/* Fix 16:9 ratio mapping for mobile scroll perspective */}
+              <div className="relative w-full aspect-[16/9] lg:aspect-auto">
+                <img
+                  src="/location_map.svg"
+                  alt="Pavilion Damansara Heights Location Map"
+                  className="w-full h-full object-contain pointer-events-none"
+                />
+              </div>
+            </div>
           </div>
-        </div>
+        </motion.div>
 
-        {/* 
-          OVERLAY TITLE: Placed neatly at the upper part of the map, 
-          sitting beautifully inside the dark gradient.
-        */}
-        <div className="absolute top-12 sm:top-20 left-0 w-full z-20 pointer-events-none flex flex-col items-center justify-start text-center px-4">
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-          >
-            <h2
-              className="text-5xl md:text-6xl lg:text-[6.5rem] font-heading font-normal text-[#C49A38] uppercase tracking-[0.15em] sm:tracking-[0.2em]"
-              style={{ textShadow: "0 10px 30px rgba(0,0,0,0.9), 0 2px 15px rgba(196,154,56,0.3)" }}
+        {/* Mobile Swipe Indicator Overlay (Hidden on Desktop) */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, delay: 0.8 }}
+          className="absolute bottom-6 left-0 right-0 flex justify-center items-center z-30 pointer-events-none sm:hidden"
+        >
+          <div className="flex justify-center items-center text-[#C49A38] bg-[#f4ebd0]/90 backdrop-blur-sm px-6 py-2 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.1)]">
+            <div className="mx-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M7.828 11.0003L20 11.0003V13.0003H7.828L13.192 18.3643L11.778 19.7783L4 12.0003L11.778 4.22232L13.192 5.63632L7.828 11.0003Z" fill="currentColor"></path>
+              </svg>
+            </div>
+
+            <motion.div
+              className="mx-4"
+              animate={{ x: [-10, 10, -10] }}
+              transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
             >
-              Location
-            </h2>
-          </motion.div>
-        </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 36" fill="none">
+                <path d="M29.2237 13.3805C29.2237 12.6598 28.7863 11.9954 28.0783 11.6431C27.4012 11.3098 26.5595 11.3098 25.8803 11.6473C25.7819 11.6951 25.6884 11.7542 25.5991 11.814C25.3931 11.3541 25.0218 10.9576 24.5254 10.7058C23.7759 10.3219 22.8449 10.3247 22.0947 10.7058C21.7516 10.8809 21.4682 11.1263 21.2573 11.416C21.0449 11.1263 20.7637 10.8788 20.4177 10.7058C19.6675 10.3219 18.7366 10.3219 17.9863 10.7058C17.8176 10.7888 17.6678 10.895 17.53 11.0124L17.3507 4.94443C17.3177 3.47068 16.2799 2.76334 15.3299 2.73662C14.2886 2.71341 13.2072 3.44677 13.082 4.94654L12.8324 16.4124L12.2404 15.087C11.5591 13.853 10.7364 13.0965 9.79423 12.8342C8.99477 12.6113 8.11516 12.759 7.25102 13.2554C7.00915 13.3967 6.85727 13.5837 6.79681 13.8179C6.67798 14.2932 6.98454 14.784 7.40712 15.4639C7.53438 15.6699 7.67642 15.8942 7.8072 16.1199C8.41962 17.356 8.66993 18.4367 8.91392 19.4829C9.29079 21.1142 9.64938 22.6498 11.2722 24.4245C13.1741 26.4622 13.8871 27.616 13.9181 27.9577L13.9722 29.8062C13.9764 31.9515 14.714 33.2628 18.2409 33.2628H22.5341C25.2384 33.2628 26.8056 32.694 26.8056 29.7894L26.8183 27.879C26.8759 26.9164 27.2599 26.4165 27.7408 25.8033C28.4059 24.9575 29.2328 23.9056 29.2286 21.3554L29.2237 13.3805ZM25.9759 29.7908C25.9759 31.8657 25.2341 32.4324 22.5341 32.4324H18.2402C15.5402 32.4324 14.8012 31.8657 14.8012 29.7908L14.7674 28.6074H25.9759V29.7908ZM27.0876 25.2915C26.5898 25.925 26.0821 26.5838 25.9928 27.7756H25.997L25.9928 27.777V27.7756H14.7281C14.5241 26.8419 13.0863 25.1487 11.8867 23.8606C10.4116 22.2483 10.0952 20.8794 9.72602 19.2952C9.47431 18.2019 9.21204 17.0726 8.54267 15.729C8.39501 15.4702 8.24946 15.2375 8.11798 15.0251C7.88876 14.6581 7.57798 14.1582 7.96118 13.8706C8.34649 13.5844 8.98634 13.4726 9.57556 13.6351C10.2941 13.8347 10.9488 14.4577 11.5007 15.4583L12.8388 18.4578C13.0448 18.9204 13.622 18.7454 13.6319 18.2975L13.9152 4.99013C13.9989 3.98045 14.6634 3.53466 15.3067 3.56701C15.8524 3.58318 16.4985 3.95935 16.521 4.96271L16.7334 12.6535C16.7502 13.2554 17.5483 13.1204 17.5673 12.6472C17.5834 12.1571 17.8738 11.6965 18.3674 11.4448C18.8835 11.1804 19.5255 11.1804 20.0423 11.4448C20.5359 11.6965 20.8424 12.1571 20.8424 12.6472C20.8424 12.8736 21.0302 13.062 21.2587 13.062C21.4879 13.062 21.6735 12.8736 21.6735 12.6472C21.6735 12.1571 21.9822 11.6965 22.4737 11.4448C22.9926 11.1804 23.6338 11.1804 24.1499 11.4448C24.6435 11.6965 24.9501 12.1571 24.9501 12.6472C24.9501 13.0599 25.5252 13.1928 25.7214 12.8637C25.836 12.6683 26.0238 12.5037 26.2523 12.3905C26.7023 12.1676 27.2606 12.1676 27.7106 12.3905C28.1212 12.593 28.375 12.9579 28.3898 13.3496C28.387 13.3594 28.3799 13.3707 28.3799 13.3826L28.3961 21.3582C28.4003 23.6222 27.7309 24.4702 27.0876 25.2915Z" fill="currentColor"></path>
+              </svg>
+            </motion.div>
 
+            <div className="mx-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M16.172 12.9997L4 12.9997V10.9997H16.172L10.808 5.63568L12.222 4.22168L20 11.9997L12.222 19.7777L10.808 18.3637L16.172 12.9997Z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

@@ -20,7 +20,7 @@ const navLinks = [
   { label: "Location", href: "#location" },
   { label: "Facilities", href: "#facilities" },
   { label: "Units", href: "#units" },
-  { label: "Concierge", href: "#concierge" },
+  { label: "Corporate", href: "#Corporate" },
   { label: "Gallery", href: "#contact" },
 ];
 

@@ -40,7 +40,7 @@ const ALL_UNITS = [
   // WINDSOR SUITES
   {
     type: "Type D1",
-    category: "Windsor",
+    category: "WINDSOR SUITES",
     label: "1 Bedroom",
     sqft: "614",
     floors: "Windsor Suites",
@@ -51,7 +51,7 @@ const ALL_UNITS = [
   },
   {
     type: "Type D2",
-    category: "Windsor",
+    category: "WINDSOR SUITES",
     label: "1 Bedroom",
     sqft: "691",
     floors: "Windsor Suites",
@@ -61,19 +61,8 @@ const ALL_UNITS = [
     highlight: false,
   },
   {
-    type: "Type D3 (02)",
-    category: "Windsor",
-    label: "1 Bedroom",
-    sqft: "775",
-    floors: "Windsor Suites",
-    image: "/pdh/pdh_overview_(luxury_p10_img1.jpeg",
-    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
-    features: ["Semi-Furnished", "Spacious Layout", "71.98 sq.m."],
-    highlight: false,
-  },
-  {
-    type: "Type D3 (03)",
-    category: "Windsor",
+    type: "Type D3",
+    category: "WINDSOR SUITES",
     label: "1 Bedroom",
     sqft: "775",
     floors: "Windsor Suites",
@@ -84,7 +73,7 @@ const ALL_UNITS = [
   },
   {
     type: "Type D4",
-    category: "Windsor",
+    category: "WINDSOR SUITES",
     label: "1 + 1 Study",
     sqft: "808",
     floors: "Windsor Suites",
@@ -95,20 +84,97 @@ const ALL_UNITS = [
   },
   {
     type: "Type D5",
-    category: "Windsor",
+    category: "WINDSOR SUITES",
     label: "1 + 1 Study",
     sqft: "826",
     floors: "Windsor Suites",
     image: "/pdh/pdh_overview_(luxury_p5_img1.jpeg",
     bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
     features: ["Semi-Furnished", "Study Room Included", "76.74 sq.m."],
+    highlight: false,
+  },
+  {
+    type: "Type E1",
+    category: "WINDSOR SUITES",
+    label: "2 Bedroom",
+    sqft: "988",
+    floors: "Windsor Suites",
+    image: "/pdh/pdh_overview_(luxury_p5_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "City Views", "91.79 sq.m."],
+    highlight: false,
+  },
+  {
+    type: "Type E2",
+    category: "WINDSOR SUITES",
+    label: "2 + 1 Study",
+    sqft: "1,466",
+    floors: "Windsor Suites",
+    image: "/pdh/pdh_overview_(luxury_p6_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Spacious Layout", "136.19 sq.m."],
     highlight: true,
+  },
+  {
+    type: "Type E2a",
+    category: "WINDSOR SUITES",
+    label: "2 + 1 Study",
+    sqft: "1,514",
+    floors: "Windsor Suites",
+    image: "/pdh/pdh_overview_(luxury_p8_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Premium Layouts", "140.64 sq.m."],
+    highlight: false,
+  },
+  {
+    type: "Type F1",
+    category: "WINDSOR SUITES",
+    label: "3 + 1 Study",
+    sqft: "1,576",
+    floors: "Windsor Suites",
+    image: "/pdh/pdh_r1_&_r2_1br_e-br_p4_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "City Views", "146.40 sq.m."],
+    highlight: false,
+  },
+  {
+    type: "Type F2",
+    category: "WINDSOR SUITES",
+    label: "3 + 1 Study",
+    sqft: "1,580",
+    floors: "Windsor Suites",
+    image: "/pdh/pdh_overview_(luxury_p10_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Spacious Layout", "146.82 sq.m."],
+    highlight: false,
+  },
+  {
+    type: "Type F2a",
+    category: "WINDSOR SUITES",
+    label: "3 + 1 Study",
+    sqft: "1,750",
+    floors: "Windsor Suites",
+    image: "/pdh/pdh_overview_(luxury_p11_img6.png",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Premium Layouts", "162.54 sq.m."],
+    highlight: true,
+  },
+  {
+    type: "Type F3",
+    category: "WINDSOR SUITES",
+    label: "3 + 1 Study",
+    sqft: "1,831",
+    floors: "Windsor Suites",
+    image: "/pdh/pdh_overview_(luxury_p5_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Spacious Layout", "170.07 sq.m."],
+    highlight: false,
   },
 
   // REGENT SUITES
   {
     type: "Type A1",
-    category: "Regent",
+    category: "REGENT SUITES",
     label: "1 Bedroom",
     sqft: "605",
     floors: "Regent Suites",
@@ -119,7 +185,7 @@ const ALL_UNITS = [
   },
   {
     type: "Type A2",
-    category: "Regent",
+    category: "REGENT SUITES",
     label: "1 Bedroom",
     sqft: "695",
     floors: "Regent Suites",
@@ -130,7 +196,7 @@ const ALL_UNITS = [
   },
   {
     type: "Type A3",
-    category: "Regent",
+    category: "REGENT SUITES",
     label: "1 Bedroom",
     sqft: "702",
     floors: "Regent Suites",
@@ -141,7 +207,7 @@ const ALL_UNITS = [
   },
   {
     type: "Type A4",
-    category: "Regent",
+    category: "REGENT SUITES",
     label: "1 + 1 Study",
     sqft: "808",
     floors: "Regent Suites",
@@ -152,7 +218,7 @@ const ALL_UNITS = [
   },
   {
     type: "Type A5",
-    category: "Regent",
+    category: "REGENT SUITES",
     label: "1 + 1 Study",
     sqft: "816",
     floors: "Regent Suites",
@@ -163,7 +229,7 @@ const ALL_UNITS = [
   },
   {
     type: "Type A6",
-    category: "Regent",
+    category: "REGENT SUITES",
     label: "1 + 1 Study",
     sqft: "826",
     floors: "Regent Suites",
@@ -172,31 +238,211 @@ const ALL_UNITS = [
     features: ["Semi-Furnished", "Study Room Included", "76.74 sq.m."],
     highlight: true,
   },
-
-  // IMPERIAL
   {
-    type: "Type H2A",
-    category: "Imperial",
-    label: "4 Ensuites + Lanai",
-    sqft: "4,090",
-    floors: "Imperial Residences",
-    image: "/pdh/imperial_resi_e-broc_p9_img1.jpeg",
+    type: "Type B1",
+    category: "REGENT SUITES",
+    label: "2 Bedroom",
+    sqft: "1,050",
+    floors: "Regent Suites",
+    image: "/pdh/pdh_overview_(luxury_p8_img1.jpeg",
     bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
-    features: ["Semi-Furnished", "Lanai Included", "4 Ensuites", "380 sq.m."],
+    features: ["Semi-Furnished", "Premium Layouts", "97.55 sq.m."],
+    highlight: false,
+  },
+  {
+    type: "Type B2",
+    category: "REGENT SUITES",
+    label: "2 + 1 Study",
+    sqft: "1,226",
+    floors: "Regent Suites",
+    image: "/pdh/pdh_overview_(luxury_p8_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Spacious Study", "113.93 sq.m."],
+    highlight: false,
+  },
+  {
+    type: "Type B3",
+    category: "REGENT SUITES",
+    label: "2 + 1 Study",
+    sqft: "1,396",
+    floors: "Regent Suites",
+    image: "/pdh/pdh_overview_(luxury_p8_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "City Views", "129.66 sq.m."],
     highlight: true,
   },
   {
-    type: "Type H1A",
-    category: "Imperial",
-    label: "3 Ensuites + Studio + Lanai",
-    sqft: "3,380",
-    floors: "Imperial Residences",
-    image: "/pdh/imperial_resi_e-broc_p8_img1.jpeg",
+    type: "Type C1",
+    category: "REGENT SUITES",
+    label: "3 Bedroom",
+    sqft: "1,473",
+    floors: "Regent Suites",
+    image: "/pdh/pdh_overview_(luxury_p8_img1.jpeg",
     bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
-    features: ["Semi-Furnished", "Lanai Included", "Studio Attached", "314 sq.m."],
+    features: ["Semi-Furnished", "Luxury Living", "136.84 sq.m."],
     highlight: false,
   },
-];
+  {
+    type: "Type C1a",
+    category: "REGENT SUITES",
+    label: "3 + 1 Study",
+    sqft: "1,758",
+    floors: "Regent Suites",
+    image: "/pdh/pdh_overview_(luxury_p8_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Exclusive Layout", "163.36 sq.m."],
+    highlight: true,
+  },
+  {
+    type: "Type C2",
+    category: "REGENT SUITES",
+    label: "3 + 1 Study",
+    sqft: "1,878",
+    floors: "Regent Suites",
+    image: "/pdh/pdh_overview_(luxury_p8_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Corner Unit", "174.50 sq.m."],
+    highlight: true,
+  },
+
+  // CROWN RESIDENCES
+  {
+    type: "Type G1",
+    category: "CROWN RESIDENCES",
+    label: "3+1 Study + 1 Maid's",
+    sqft: "2,303",
+    floors: "Crown Residences",
+    image: "/pdh/imperial_resi_e-broc_p9_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Maid's Room", "213.91 sq.m."],
+    highlight: true,
+  },
+  {
+    type: "Type G2",
+    category: "CROWN RESIDENCES",
+    label: "4+1 Study + 1 Maid's",
+    sqft: "2,803",
+    floors: "Crown Residences",
+    image: "/pdh/imperial_resi_e-broc_p8_img1.jpeg",
+    bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+    features: ["Semi-Furnished", "Maid's Room", "260.39 sq.m."],
+    highlight: false,
+  },
+  
+      // IMPERIAL RESIDENCES
+    {
+      type: "Type H1",
+      category: "IMPERIAL RESIDENCES",
+      label: "4 Ensuites + Lanai",
+      sqft: "3,380",
+      floors: "Imperial Residences",
+      image: "/pdh/imperial_resi_e-broc_p8_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["4 Ensuites", "Lanai", "314 sq.m."],
+      highlight: true,
+    },
+    {
+      type: "Type H1A",
+      category: "IMPERIAL RESIDENCES",
+      label: "3 Ensuites + Studio + Lanai",
+      sqft: "3,380",
+      floors: "Imperial Residences",
+      image: "/pdh/pdh_overview_(luxury_p10_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["3 Ensuites + Studio", "Lanai", "314 sq.m."],
+      highlight: false,
+    },
+    {
+      type: "Type H2",
+      category: "IMPERIAL RESIDENCES",
+      label: "4 Ensuites + Lanai",
+      sqft: "4,090",
+      floors: "Imperial Residences",
+      image: "/pdh/pdh_overview_(luxury_p6_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["4 Ensuites", "Lanai", "380 sq.m."],
+      highlight: false,
+    },
+    {
+      type: "Type H2A",
+      category: "IMPERIAL RESIDENCES",
+      label: "4 Ensuites + Lanai",
+      sqft: "4,090",
+      floors: "Imperial Residences",
+      image: "/pdh/pdh_r1_&_r2_1br_e-br_p4_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["4 Ensuites", "Lanai", "380 sq.m."],
+      highlight: true,
+    },
+
+    // ROYAL SUITES
+    {
+      type: "Type S1",
+      category: "ROYAL SUITES",
+      label: "Suite",
+      sqft: "452",
+      floors: "Royal Suites",
+      image: "/pdh/imperial_resi_e-broc_p8_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["Suite", "42 sq.m."],
+      highlight: true,
+    },
+    {
+      type: "Type S2",
+      category: "ROYAL SUITES",
+      label: "Suite",
+      sqft: "538",
+      floors: "Royal Suites",
+      image: "/pdh/pdh_overview_(luxury_p10_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["Suite", "50 sq.m."],
+      highlight: false,
+    },
+    {
+      type: "Type M1",
+      category: "ROYAL SUITES",
+      label: "2 Bedrooms + Study",
+      sqft: "1,119",
+      floors: "Royal Suites",
+      image: "/pdh/pdh_overview_(luxury_p6_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["2 Bedrooms + Study", "104 sq.m."],
+      highlight: false,
+    },
+    {
+      type: "Type M2",
+      category: "ROYAL SUITES",
+      label: "3 Bedrooms + Study",
+      sqft: "1,550",
+      floors: "Royal Suites",
+      image: "/pdh/pdh_r1_&_r2_1br_e-br_p4_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["3 Bedrooms + Study", "144 sq.m."],
+      highlight: true,
+    },
+    {
+      type: "Type DK1",
+      category: "ROYAL SUITES",
+      label: "2 Bedrooms + Studio (Dual Key)",
+      sqft: "1,302",
+      floors: "Royal Suites",
+      image: "/pdh/imperial_resi_e-broc_p8_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["Dual Key", "2 Bedrooms + Studio", "121 sq.m."],
+      highlight: false,
+    },
+    {
+      type: "Type DK2",
+      category: "ROYAL SUITES",
+      label: "2 Bedrooms + Studio (Dual Key)",
+      sqft: "1,679",
+      floors: "Royal Suites",
+      image: "/pdh/pdh_overview_(luxury_p10_img1.jpeg",
+      bgImage: "/pdh/imperial_resi_e-broc_fullpage_p5.jpeg",
+      features: ["Dual Key", "2 Bedrooms + Studio", "156 sq.m."],
+      highlight: true,
+    },
+  ];
 
 type Unit = typeof ALL_UNITS[0];
 
@@ -222,9 +468,23 @@ function UnitBg({ unit }: { unit: Unit }) {
   );
 }
 
+const PHASES = [
+  {
+    name: "Phase 1",
+    categories: ["WINDSOR SUITES", "REGENT SUITES", "CROWN RESIDENCES"]
+  },
+  {
+    name: "Phase 2",
+    categories: ["IMPERIAL RESIDENCES", "ROYAL SUITES"]
+  }
+] as const;
+
 export default function UnitLayouts() {
-  const [activeCategory, setActiveCategory] = useState<"Windsor" | "Regent" | "Imperial">("Windsor");
-  const filteredUnits = ALL_UNITS.filter((u) => u.category === activeCategory);
+  const [activePhase, setActivePhase] = useState<typeof PHASES[number]["name"]>("Phase 1");
+  const [activeCategory, setActiveCategory] = useState<string>("WINDSOR SUITES");
+
+  const _filteredUnits = ALL_UNITS.filter((u) => u.category === activeCategory);
+  const filteredUnits = _filteredUnits.length > 0 ? _filteredUnits : [ALL_UNITS[0]];
 
   const [activeIdx, setActiveIdx] = useState(0);
   const [dir, setDir] = useState(1);
@@ -275,47 +535,56 @@ export default function UnitLayouts() {
         {/* ── Header ── */}
         <div className="text-center lg:text-left flex flex-col lg:flex-row justify-between lg:items-end gap-6">
           <div>
-            <motion.div
-              initial={{ opacity: 0, y: -16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="flex items-center justify-center lg:justify-start gap-3 mb-4"
-            >
-              <div className="w-8 h-[1px] bg-gradient-to-r from-[#C49A38] to-transparent hidden lg:block" />
-              <div className="w-8 h-[1px] bg-gradient-to-l from-[#C49A38] to-transparent lg:hidden" />
-              <span className="text-[10px] font-sans uppercase tracking-[0.4em] font-bold text-[#C49A38] text-center">
-                Floor Plan Layouts
-              </span>
-              <div className="w-8 h-[1px] bg-gradient-to-r from-[#C49A38] to-transparent lg:hidden" />
-            </motion.div>
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
-              className="text-3xl sm:text-5xl md:text-6xl lg:text-[4.5rem] font-heading font-normal text-white leading-[1.05] tracking-tight drop-shadow-2xl"
+              className="text-[12vw] min-[390px]:text-[13vw] sm:text-5xl md:text-6xl lg:text-7xl font-heading font-black text-white leading-[0.9] tracking-tight drop-shadow-2xl"
             >
               Luxury
-              <em className="font-light italic text-[#C49A38] ml-2 lg:ml-3">Residences</em>
+              <em style={{ fontStyle: "normal", WebkitTextFillColor: "transparent", background: "linear-gradient(135deg,#C49A38,#E8C66A)", WebkitBackgroundClip: "text", backgroundClip: "text" }} className="ml-2 lg:ml-3">Residences</em>
             </motion.h2>
           </div>
 
-          {/* Category Toggle */}
-          <div className="flex items-center justify-center gap-1 bg-white/5 p-1 rounded-full w-full max-w-md lg:max-w-sm backdrop-blur-md border border-[#C49A38]/30 mx-auto lg:mx-0 shadow-[0_4px_20px_rgba(196,154,56,0.15)] relative z-20">
-            {(["Windsor", "Regent", "Imperial"] as const).map((cat) => (
-              <button
-                key={cat}
-                onClick={() => {
-                  if (activeCategory !== cat) {
-                    setActiveCategory(cat);
-                    setActiveIdx(0);
-                  }
-                }}
-                className={`flex-1 px-1 sm:px-4 py-1.5 sm:py-2.5 rounded-full text-[9px] sm:text-[11px] font-sans font-bold uppercase tracking-wider transition-all duration-300 ${activeCategory === cat ? "bg-gradient-to-r from-[#C49A38] to-[#B8860B] text-white shadow-md scale-100" : "text-[#C49A38]/60 hover:text-[#C49A38] hover:bg-[#C49A38]/10 scale-95"}`}
-              >
-                {cat}
-              </button>
-            ))}
+          {/* Phase & Category Toggles */}
+          <div className="flex flex-col items-center lg:items-end gap-3 w-full lg:w-auto relative z-20">
+            {/* Phase Toggle */}
+            <div className="flex items-center justify-center gap-1 bg-[#1A1208]/80 p-1.5 rounded-full w-fit backdrop-blur-md border border-[#C49A38]/40 shadow-[0_4px_25px_rgba(196,154,56,0.2)]">
+              {PHASES.map((phase) => (
+                <button
+                  key={phase.name}
+                  onClick={() => {
+                    if (activePhase !== phase.name) {
+                      setActivePhase(phase.name);
+                      setActiveCategory(phase.categories[0]);
+                      setActiveIdx(0);
+                    }
+                  }}
+                  className={`px-4 sm:px-8 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm font-sans font-bold uppercase tracking-[0.15em] transition-all duration-300 ${activePhase === phase.name ? "bg-gradient-to-r from-[#C49A38] to-[#B8860B] text-white shadow-lg shadow-[#C49A38]/30 scale-100" : "text-[#C49A38]/70 hover:text-[#C49A38] hover:bg-[#C49A38]/10 scale-95"}`}
+                >
+                  {phase.name}
+                </button>
+              ))}
+            </div>
+
+            {/* Category Toggle */}
+            <div className="flex flex-wrap items-center justify-center gap-2 mt-1">
+              {PHASES.find((p) => p.name === activePhase)?.categories.map((cat) => (
+                <button
+                  key={cat}
+                  onClick={() => {
+                    if (activeCategory !== cat) {
+                      setActiveCategory(cat);
+                      setActiveIdx(0);
+                    }
+                  }}
+                  className={`px-3 sm:px-5 py-2 rounded-lg text-[9px] sm:text-[11px] font-sans font-bold uppercase tracking-wider transition-all duration-300 border ${activeCategory === cat ? "border-[#C49A38] bg-[#C49A38]/20 text-[#ffe599] shadow-[0_0_15px_rgba(196,154,56,0.3)]" : "border-[#C49A38]/30 text-[#C49A38]/70 hover:border-[#C49A38] hover:text-[#C49A38] hover:bg-[#C49A38]/10"}`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 

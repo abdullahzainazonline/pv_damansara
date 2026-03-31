@@ -1,0 +1,511 @@
+
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head><meta charset='utf-8'><title>Asset Requirements Document</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; }
+  h1 { color: #2D1606; border-bottom: 2px solid #C9A84C; padding-bottom: 10px; }
+  h2 { color: #C9A84C; margin-top: 30px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+  th { background-color: #f4ebd0; color: #2D1606; font-weight: bold; }
+  .folder-path { font-family: 'Courier New', Courier, monospace; color: #0056b3; background: #f8f9fa; padding: 2px 4px; border-radius: 3px; }
+</style>
+</head>
+<body>
+  <h1>Pavilion Damansara - Web Asset Requirements</h1>
+  <p>Please follow the exact folder structures and naming conventions below to ensure seamless integration into the website. Maintain transparent backgrounds (.png) for floorplans if possible, or clean solid white/black backgrounds (.jpg).</p>
+<h2>Backgrounds</h2>
+    <table>
+      <tr>
+        <th width="35%">Asset Name Convention (Folder Path)</th>
+        <th width="20%">Asset Type</th>
+        <th width="20%">PC Aspect Ratio</th>
+        <th width="25%">Mobile Aspect Ratio</th>
+      </tr>
+  
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Backgrounds/</div>
+          <strong class="folder-path">phase1_bg.jpg</strong>
+        </td>
+        <td>Background Image</td>
+        <td>16:9</td>
+        <td>9:16 or 3:4</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Backgrounds/</div>
+          <strong class="folder-path">phase2_bg.jpg</strong>
+        </td>
+        <td>Background Image</td>
+        <td>16:9</td>
+        <td>9:16 or 3:4</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Backgrounds/</div>
+          <strong class="folder-path">corporate_bg.jpg</strong>
+        </td>
+        <td>Background Image</td>
+        <td>16:9</td>
+        <td>9:16 or 3:4</td>
+      </tr>
+    </table><h2>Phase 1 - Windsor Suites</h2>
+    <table>
+      <tr>
+        <th width="35%">Asset Name Convention (Folder Path)</th>
+        <th width="20%">Asset Type</th>
+        <th width="20%">PC Aspect Ratio</th>
+        <th width="25%">Mobile Aspect Ratio</th>
+      </tr>
+  
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_d1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_d2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_d3.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_d4.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_d5.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_e1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_e2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_e2a.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_f1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_f2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_f2a.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Windsor/</div>
+          <strong class="folder-path">type_f3.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    </table><h2>Phase 1 - Regent Suites</h2>
+    <table>
+      <tr>
+        <th width="35%">Asset Name Convention (Folder Path)</th>
+        <th width="20%">Asset Type</th>
+        <th width="20%">PC Aspect Ratio</th>
+        <th width="25%">Mobile Aspect Ratio</th>
+      </tr>
+  
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_a1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_a2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_a3.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_a4.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_a5.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_a6.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_b1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_b2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_b3.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_c1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_c1a.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Regent/</div>
+          <strong class="folder-path">type_c2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    </table><h2>Phase 1 - Crown Residences</h2>
+    <table>
+      <tr>
+        <th width="35%">Asset Name Convention (Folder Path)</th>
+        <th width="20%">Asset Type</th>
+        <th width="20%">PC Aspect Ratio</th>
+        <th width="25%">Mobile Aspect Ratio</th>
+      </tr>
+  
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Crown/</div>
+          <strong class="folder-path">type_g1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase1/Crown/</div>
+          <strong class="folder-path">type_g2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    </table><h2>Phase 2 - Imperial Residences</h2>
+    <table>
+      <tr>
+        <th width="35%">Asset Name Convention (Folder Path)</th>
+        <th width="20%">Asset Type</th>
+        <th width="20%">PC Aspect Ratio</th>
+        <th width="25%">Mobile Aspect Ratio</th>
+      </tr>
+  
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Imperial/</div>
+          <strong class="folder-path">type_h1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Imperial/</div>
+          <strong class="folder-path">type_h1a.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Imperial/</div>
+          <strong class="folder-path">type_h2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Imperial/</div>
+          <strong class="folder-path">type_h2a.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    </table><h2>Phase 2 - Royal Suites</h2>
+    <table>
+      <tr>
+        <th width="35%">Asset Name Convention (Folder Path)</th>
+        <th width="20%">Asset Type</th>
+        <th width="20%">PC Aspect Ratio</th>
+        <th width="25%">Mobile Aspect Ratio</th>
+      </tr>
+  
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Royal/</div>
+          <strong class="folder-path">type_s1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Royal/</div>
+          <strong class="folder-path">type_s2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Royal/</div>
+          <strong class="folder-path">type_m1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Royal/</div>
+          <strong class="folder-path">type_m2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Royal/</div>
+          <strong class="folder-path">type_dk1.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Units/Phase2/Royal/</div>
+          <strong class="folder-path">type_dk2.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>1:1 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    </table><h2>Corporate Suites & Hotel</h2>
+    <table>
+      <tr>
+        <th width="35%">Asset Name Convention (Folder Path)</th>
+        <th width="20%">Asset Type</th>
+        <th width="20%">PC Aspect Ratio</th>
+        <th width="25%">Mobile Aspect Ratio</th>
+      </tr>
+  
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Corporate/Suites/</div>
+          <strong class="folder-path">odd_floors.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>16:9 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Corporate/Suites/</div>
+          <strong class="folder-path">even_floors.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>16:9 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Corporate/Suites/</div>
+          <strong class="folder-path">level_23a.jpg</strong>
+        </td>
+        <td>Floor Plan</td>
+        <td>16:9 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    </table><h2>Corporate Tower 1</h2>
+    <table>
+      <tr>
+        <th width="35%">Asset Name Convention (Folder Path)</th>
+        <th width="20%">Asset Type</th>
+        <th width="20%">PC Aspect Ratio</th>
+        <th width="25%">Mobile Aspect Ratio</th>
+      </tr>
+  
+      <tr>
+        <td>
+          <div style="font-size: 0.85em; color: #666;">Folder: Assets/Corporate/Tower1/</div>
+          <strong class="folder-path">tower1_sold_out.jpg</strong>
+        </td>
+        <td>Building Graphic / Plan</td>
+        <td>16:9 or 4:3</td>
+        <td>1:1</td>
+      </tr>
+    </table></body></html>
