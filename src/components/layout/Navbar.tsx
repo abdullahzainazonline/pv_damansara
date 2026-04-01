@@ -37,20 +37,28 @@ export default function Navbar() {
     setLang(newLang);
     const domain = window.location.hostname;
 
-    // Clear all existing translation cookies first
-    document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-    document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.${domain}; path=/;`;
-    document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${domain}; path=/;`;
+    // Function to thoroughly completely wipe language cookies
+    const clearCookie = (name: string) => {
+      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${domain}; path=/;`;
+      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.${domain}; path=/;`;
+    };
+
+    // Function to systematically set language cookies
+    const setCookie = (name: string, value: string) => {
+      document.cookie = `${name}=${value}; path=/;`;
+      document.cookie = `${name}=${value}; domain=${domain}; path=/;`;
+      document.cookie = `${name}=${value}; domain=.${domain}; path=/;`;
+    };
+
+    clearCookie("googtrans");
 
     // Only set the zh-CN cookie if Chinese is selected
     if (newLang === "ZH") {
-      document.cookie = `googtrans=/en/zh-CN; path=/;`;
-      document.cookie = `googtrans=/en/zh-CN; domain=.${domain}; path=/;`;
-      document.cookie = `googtrans=/en/zh-CN; domain=${domain}; path=/;`;
+      setCookie("googtrans", "/en/zh-CN");
     } else {
-      document.cookie = `googtrans=/en/en; path=/;`;
-      document.cookie = `googtrans=/en/en; domain=.${domain}; path=/;`;
-      document.cookie = `googtrans=/en/en; domain=${domain}; path=/;`;
+      clearCookie("googtrans"); // fully clear it for english
+      setCookie("googtrans", "/auto/en");
     }
 
     // Hard reload to guarantee perfect translation rendering across the whole site DOM
