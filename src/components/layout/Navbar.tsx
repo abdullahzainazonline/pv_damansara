@@ -42,6 +42,14 @@ export default function Navbar() {
       document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
       document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${domain}; path=/;`;
       document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.${domain}; path=/;`;
+      
+      // Also wipe on root domain for Vercel/similar hostings (e.g., .vercel.app)
+      const domainParts = domain.split(".");
+      if (domainParts.length > 2) {
+        const rootDomain = domainParts.slice(-2).join(".");
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${rootDomain}; path=/;`;
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.${rootDomain}; path=/;`;
+      }
     };
 
     // Function to systematically set language cookies
@@ -52,17 +60,26 @@ export default function Navbar() {
     };
 
     clearCookie("googtrans");
+    try {
+      window.localStorage.removeItem("googtrans");
+      window.sessionStorage.removeItem("googtrans");
+    } catch(e) {}
 
     // Only set the zh-CN cookie if Chinese is selected
     if (newLang === "ZH") {
       setCookie("googtrans", "/en/zh-CN");
     } else {
       clearCookie("googtrans"); // fully clear it for english
-      setCookie("googtrans", "/auto/en");
+      setCookie("googtrans", "/en/en"); // explicitly tell google translate to go back to English
+      
+      // Also clear it without domain just in case
+      document.cookie = "googtrans=/en/en; path=/;";
     }
 
     // Hard reload to guarantee perfect translation rendering across the whole site DOM
-    window.location.reload();
+    setTimeout(() => {
+        window.location.reload();
+    }, 100);
   };
 
   /* ── Sync Translate State on Mount ── */
