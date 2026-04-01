@@ -4,7 +4,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import {
-  Waves, Dumbbell, TreePine, Gamepad2, Star, ChevronLeft, ChevronRight
+  Waves, Dumbbell, TreePine, Gamepad2, Star, ChevronLeft, ChevronRight,
+  Bell, Train, ShoppingBag, Building, Plane
 } from "lucide-react";
 
 /* ── Levels data ─────────────────────────────────────── */
@@ -56,6 +57,66 @@ const levels = [
     bgMobile: "/pdh/pdh_overview_(luxury_p18_img1.jpeg",
     accent: "#C49A38",
     icon: TreePine,
+  },
+  {
+    id: "CONC",
+    label: "Service Elements",
+    headline: "Dedicated Concierge",
+    tagline: "Peace of Mind & Convenience",
+    description: "The dedicated Pavilion concierge team offers peace of mind and convenience, further enhancing your experience of living in Pavilion Damansara Heights.",
+    image: "/pdh/pdh_overview_(luxury_p16_img1.jpeg",
+    bgPC: "/pdh/pdh_overview_(luxury_p16_img1.jpeg",
+    bgMobile: "/pdh/pdh_overview_(luxury_p16_img1.jpeg",
+    accent: "#C49A38",
+    icon: Bell,
+  },
+  {
+    id: "MRT",
+    label: "Seamless Connection",
+    headline: "MRT Station Access",
+    tagline: "Limitless City Connectivity",
+    description: "Seamless connection to Pavilion Damansara Heights MRT Station provides limitless connectivity to the city centre and KL Sentral, the transportation hub of Kuala Lumpur.",
+    image: "/pdh/pdh_overview_(luxury_p17_img1.jpeg",
+    bgPC: "/pdh/pdh_overview_(luxury_p17_img1.jpeg",
+    bgMobile: "/pdh/pdh_overview_(luxury_p17_img1.jpeg",
+    accent: "#C49A38",
+    icon: Train,
+  },
+  {
+    id: "MALL",
+    label: "Retail Integration",
+    headline: "Direct Mall Access",
+    tagline: "Phase 2 Opening June 2025",
+    description: "Residents have direct access to Pavilion Damansara Heights Mall Phase 2, opening in June 2025, which includes a variety of shopping and dining outlets right at your doorstep.",
+    image: "/pdh/ct10_e-broucher__p6_img1.jpeg",
+    bgPC: "/pdh/ct10_e-broucher__p6_img1.jpeg",
+    bgMobile: "/pdh/ct10_e-broucher__p6_img1.jpeg",
+    accent: "#C49A38",
+    icon: ShoppingBag,
+  },
+  {
+    id: "TOD",
+    label: "Integrated Masterplan",
+    headline: "Freehold TOD",
+    tagline: "16-Acre Mature Township",
+    description: "Spanning 16 acres, Pavilion Damansara Heights is a freehold integrated development with direct connections to retail, MRT, and office components, located within a mature township.",
+    image: "/pdh/pdh_overview_(luxury_p18_img1.jpeg",
+    bgPC: "/pdh/pdh_overview_(luxury_p18_img1.jpeg",
+    bgMobile: "/pdh/pdh_overview_(luxury_p18_img1.jpeg",
+    accent: "#C49A38",
+    icon: Building,
+  },
+  {
+    id: "HUB",
+    label: "Transportation",
+    headline: "Global & CBD Access",
+    tagline: "Gateway to KLIA & TRX",
+    description: "The gateway to Kuala Lumpur International Airport (KLIA & KLIA2) via the KLIA Ekspres Line from KL Sentral. Enjoy a direct line to the Central Business District (CBD) and the upcoming Tun Razak Exchange (TRX).",
+    image: "/pdh/ct10_e-broucher__p4_img1.jpeg",
+    bgPC: "/pdh/ct10_e-broucher__p6_img1.jpeg",
+    bgMobile: "/pdh/ct10_e-broucher__p6_img1.jpeg",
+    accent: "#C49A38",
+    icon: Plane,
   },
 ];
 
@@ -148,21 +209,35 @@ export default function Facilities() {
           />
         </div>
 
-        {/* Level tabs - Grid layout for mobile */}
-        <div className="grid grid-cols-2 sm:flex sm:justify-start gap-2 mb-8 sm:mb-12 px-0 w-full sm:w-auto">
-          {levels.map((l, i) => (
-            <button
-              key={l.id}
-              onClick={() => selectLevel(i)}
-              className={`relative flex items-center gap-2 px-4 py-2.5 sm:px-5 sm:py-2.5 rounded-full text-[10px] uppercase tracking-[0.1em] sm:tracking-[0.2em] font-sans font-bold transition-all duration-400 overflow-hidden group ${i === activeIdx
-                ? "bg-[#C49A38] text-[#100D0A] shadow-[0_6px_24px_rgba(196,154,56,0.45)]"
-                : "bg-white/10 text-white/60 border border-white/10 hover:border-[#C49A38]/50 hover:text-[#C49A38] backdrop-blur-sm"
+        {/* Level tabs - Adaptive wrapping layout */}
+        <div className="flex flex-wrap lg:flex-nowrap gap-2 sm:gap-2.5 mb-8 sm:mb-12 px-0 w-full justify-start items-center">
+          {levels.map((l, i) => {
+            const isActive = i === activeIdx;
+            return (
+              <button
+                key={l.id}
+                onClick={() => selectLevel(i)}
+                className={`relative flex items-center justify-center px-4 py-2.5 sm:py-3 rounded-full text-[10px] min-[390px]:text-[11px] uppercase tracking-[0.1em] sm:tracking-[0.15em] font-sans font-bold transition-all duration-500 overflow-hidden flex-shrink-0 border ${
+                  isActive
+                    ? "bg-[#C49A38] border-[#C49A38] text-[#100D0A] shadow-[0_6px_24px_rgba(196,154,56,0.45)] w-full lg:w-auto lg:flex-shrink-0"
+                    : "bg-white/5 text-white/50 border-white/10 hover:border-[#C49A38]/40 hover:text-[#C49A38] hover:bg-white/10 backdrop-blur-md flex-grow lg:flex-grow-0"
                 }`}
-            >
-              <span className="relative z-10">{l.id}</span>
-              <span className="relative z-10 hidden sm:inline">— {l.label}</span>
-            </button>
-          ))}
+              >
+                {/* Icon displays always for active, but gracefully hides on smaller screens for inactive */}
+                <l.icon className={`w-3.5 h-3.5 mr-2 transition-all duration-500 ${isActive ? 'opacity-100 flex-shrink-0' : 'opacity-50 hidden sm:block flex-shrink-0'}`} />
+                <span className="relative z-10 whitespace-nowrap">{l.id}</span>
+                
+                {/* Descriptive label expands only for the active tab */}
+                <span
+                  className={`relative z-10 whitespace-nowrap transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                    isActive ? "max-w-[300px] opacity-100 ml-1.5" : "max-w-0 opacity-0 ml-0 inline-block border-0"
+                  }`}
+                >
+                  — {l.label}
+                </span>
+              </button>
+            );
+          })}
         </div>
 
         {/* Main content area */}
