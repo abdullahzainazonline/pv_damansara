@@ -47,6 +47,10 @@ export default function Navbar() {
       document.cookie = `googtrans=/en/zh-CN; path=/;`;
       document.cookie = `googtrans=/en/zh-CN; domain=.${domain}; path=/;`;
       document.cookie = `googtrans=/en/zh-CN; domain=${domain}; path=/;`;
+    } else {
+      document.cookie = `googtrans=/en/en; path=/;`;
+      document.cookie = `googtrans=/en/en; domain=.${domain}; path=/;`;
+      document.cookie = `googtrans=/en/en; domain=${domain}; path=/;`;
     }
 
     // Hard reload to guarantee perfect translation rendering across the whole site DOM

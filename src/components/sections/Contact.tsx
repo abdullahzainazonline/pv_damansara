@@ -497,9 +497,9 @@ export default function Contact() {
                                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#25D366]/20 to-transparent border border-[#25D366]/20 flex items-center justify-center group-hover:scale-110 transition-transform"><WhatsAppIcon className="w-4 h-4 text-[#25D366]" /></div>
                                 <span className="text-[15px] font-sans font-semibold text-white/80 group-hover:text-white transition-colors">WhatsApp Us</span>
                             </a>
-                            <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center"><MapPin className="w-4 h-4 text-white/40" /></div>
-                                <span className="text-[14px] font-sans font-light text-white/50">Damansara Heights, Kuala Lumpur</span>
+                            <div className="flex items-center gap-3 group cursor-default">
+                                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#C49A38]/20 to-transparent border border-[#C49A38]/20 flex items-center justify-center group-hover:scale-110 transition-transform"><MapPin className="w-4 h-4 text-[#C49A38]" /></div>
+                                <span className="text-[15px] font-sans font-semibold text-white/80 group-hover:text-white transition-colors">Damansara Heights, Kuala Lumpur</span>
                             </div>
                         </div>
 
