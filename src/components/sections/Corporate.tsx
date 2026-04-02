@@ -325,19 +325,42 @@ export default function Corporate() {
                   {/* Prominent Details */}
                   <div className={`flex flex-col gap-4 p-6 sm:p-8 rounded-[1.5rem] shadow-[0_8px_32px_rgba(0,0,0,0.4)] backdrop-blur-xl w-full relative z-10 ${activeUnit.soldOut ? 'bg-[#1A1208]/80 border border-white/5' : 'bg-[#1A1208]/60 border border-[#C49A38]/20'}`}>
                     
-                    {/* Size */}
-                    <div className="flex flex-col gap-1">
-                      <div className={`text-3xl sm:text-4xl lg:text-5xl font-heading font-normal tracking-tight ${activeUnit.soldOut ? 'text-white/50' : 'text-white drop-shadow-lg'}`}>
-                        {activeUnit.sqft} <span className="text-lg sm:text-xl font-sans font-light opacity-50 tracking-wider">sq.ft.</span>
-                      </div>
-                    </div>
+                    {/* Size (hide for Corporate Suites & Hotel) or show prominent features for Corporate category */}
+                    {activeCategory !== "CORPORATE SUITES & HOTEL" ? (
+                      <>
+                        <div className="flex flex-col gap-1">
+                          <div className={`text-3xl sm:text-4xl lg:text-5xl font-heading font-normal tracking-tight ${activeUnit.soldOut ? 'text-white/50' : 'text-white drop-shadow-lg'}`}>
+                            {activeUnit.sqft} <span className="text-lg sm:text-xl font-sans font-light opacity-50 tracking-wider">sq.ft.</span>
+                          </div>
+                        </div>
 
-                    {/* Level */}
-                    <div className="flex flex-col gap-1 pt-2">
-                       <div className={`text-2xl sm:text-3xl font-heading font-normal tracking-tight leading-snug ${activeUnit.soldOut ? 'text-white/50' : 'text-[#C49A38]'}`}>
-                        {activeUnit.floors}
-                      </div>
-                    </div>
+                        {/* Level */}
+                        <div className="flex flex-col gap-1 pt-2">
+                          <div className={`text-2xl sm:text-3xl font-heading font-normal tracking-tight leading-snug ${activeUnit.soldOut ? 'text-white/50' : 'text-[#C49A38]'}`}>
+                            {activeUnit.floors}
+                          </div>
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        <div className="flex flex-col gap-3">
+                          <div className="flex flex-wrap gap-2">
+                            {activeUnit.features.map((f, idx) => (
+                              <span key={idx} className={`px-3 py-1 rounded-full text-sm font-semibold ${activeUnit.soldOut ? 'bg-white/5 text-white/60' : 'bg-[#C49A38]/10 text-[#C49A38]'}`}>
+                                {f}
+                              </span>
+                            ))}
+                          </div>
+
+                          {/* Level (kept but less dominant) */}
+                          <div className="pt-1">
+                            <div className={`text-xl sm:text-2xl font-heading font-normal tracking-tight leading-snug ${activeUnit.soldOut ? 'text-white/50' : 'text-[#C49A38]'}`}>
+                              {activeUnit.floors}
+                            </div>
+                          </div>
+                        </div>
+                      </>
+                    )}
                   </div>
 
                 </div>
